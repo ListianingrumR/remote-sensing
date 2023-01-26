@@ -10,11 +10,9 @@ Those values represent the amount of reflected electromagnetic energy (which is 
 
 Electromagnetic energy has waves, have wavelength
 
-!\[Electromagnetic Waves\](img/fig1.png)
+![Electromagnetic Waves](img/fig1.png)
 
-!\[Electromagnetic Waves\](img/fig1.png){width="60%"}
-
-Source: \[Google Earth Engine 101\](https://storymaps.arcgis.com/stories/cdfc91d050634a5294ac897acc959d55) Stanford Geospatial Centre
+Source: [Google Earth Engine 101](https://storymaps.arcgis.com/stories/cdfc91d050634a5294ac897acc959d55) Stanford Geospatial Centre
 
 **Spectral sampling**
 
