@@ -3,7 +3,7 @@
     "path": "~/Documents/CASA/RS/rs_assess/remote-sensing/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2578363470",
     "contents": "",
     "dirty": false,
     "created": 1674746603100.0,
@@ -21,11 +21,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1674748636,
+    "lastKnownWriteTime": 1674748719,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1674748636723,
+    "last_content_update": 1674748719386,
     "read_only": false,
     "read_only_alternatives": []
 }
