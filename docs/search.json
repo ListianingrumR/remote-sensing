@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Remote Sensing Learning Diary",
     "section": "",
-    "text": "Preface\nThis is a Learning Diary for CASA0023 Remotely Sensing Cities and Environment module.\nThis website contains summary of learning material each week with structures below:\n1. Content\n2. Summary\n3. Applications\n4. Reflection\n5. Conclusion\n\n\n\n\n\n\nNote\n\n\n\nYou can click the “-\\>” button below for the next chapter!"
+    "text": "Preface\nThis is a Learning Diary for CASA0023 Remotely Sensing Cities and Environment module.\nThis website contains summary of learning material of this module each week with structures below:\n\nSummary\nApplications\nReflection\nConclusion\n\n\n\n\n\n\n\nNote\n\n\n\nYou can click the “->” button below for the next chapter!"
   },
   {
     "objectID": "intro.html",
@@ -38,8 +38,8 @@
     "objectID": "intro.html#summary",
     "href": "intro.html#summary",
     "title": "1  Week 1 - Introduction to Remote Sensing",
-    "section": "1.2 Summary",
-    "text": "1.2 Summary"
+    "section": "1.1 Summary",
+    "text": "1.1 Summary"
   },
   {
     "objectID": "intro.html#reflection",
@@ -54,5 +54,12 @@
     "title": "1  Week 1 - Introduction to Remote Sensing",
     "section": "1.4 Conclusion",
     "text": "1.4 Conclusion"
+  },
+  {
+    "objectID": "intro.html#applications",
+    "href": "intro.html#applications",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.2 Applications",
+    "text": "1.2 Applications"
   }
 ]
