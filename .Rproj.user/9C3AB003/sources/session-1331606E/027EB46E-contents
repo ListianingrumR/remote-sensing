@@ -1,9 +1,10 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "remote-sensing"
-  author: "Jane Doe"
+  title: "Remote Sensing Learning Diary"
+  author: "Rahmadita Listianingrum"
   date: "1/26/2023"
   chapters:
     - index.qmd

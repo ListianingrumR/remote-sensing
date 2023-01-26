@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Remote Sensing Learning Diary",
+    "section": "",
+    "text": "Preface\nThis is a Learning Diary for CASA0023 Remotely Sensing Cities and Environment module.\nThis website contains summary of learning material each week with structures below:\n1. Content\n2. Summary\n3. Applications\n4. Reflection\n5. Conclusion\n\n\n\n\n\n\nNote\n\n\n\nYou can click the “-\\>” button below for the next chapter!"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "intro.html#what-is-remote-sensing",
+    "href": "intro.html#what-is-remote-sensing",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.1 What is Remote Sensing?",
+    "text": "1.1 What is Remote Sensing?"
+  },
+  {
+    "objectID": "intro.html#summary",
+    "href": "intro.html#summary",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.2 Summary",
+    "text": "1.2 Summary"
+  },
+  {
+    "objectID": "intro.html#reflection",
+    "href": "intro.html#reflection",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.3 Reflection",
+    "text": "1.3 Reflection"
+  },
+  {
+    "objectID": "intro.html#conclusion",
+    "href": "intro.html#conclusion",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.4 Conclusion",
+    "text": "1.4 Conclusion"
+  }
+]
