@@ -10,11 +10,13 @@ Those values represent the amount of reflected electromagnetic energy (which is 
 
 Electromagnetic energy has waves, have wavelength
 
+!\[Electromagnetic Waves\](img/fig1.png)
+
 !\[Electromagnetic Waves\](img/fig1.png){width="60%"}
 
 Source: \[Google Earth Engine 101\](https://storymaps.arcgis.com/stories/cdfc91d050634a5294ac897acc959d55) Stanford Geospatial Centre
 
-\> Spectral sampling
+**Spectral sampling**
 
 RGB, Red Green Blue Spectrum
 
@@ -24,11 +26,11 @@ in each spectral/spectrum, the image will be white if it reflects the spactrum
 
 255 spectrum of each RGB
 
-\> Observing the surface of the earth
+**Observing the surface of the earth**
 
 Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc.
 
-\> Classifying the pixels through the wavelength
+**Classifying the pixels through the wavelength**
 
 ## Applications
 
