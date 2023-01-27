@@ -22,7 +22,7 @@ My name is Rahmadita Listianingrum. I am an international student from Indonesia
 
 ## How to use this book
 
-This website is hosted on GitHub. Data used within the practicals is available online, however occasionally websites can undergo maintenance or be inaccessible due to political factors such as government shutdowns.
+This website is hosted on GitHub. Data used within this book is available online, however occasionally websites can undergo maintenance or be inaccessible due to political factors such as government shutdowns.
 
 To get the most out of this book spend a few minutes learning how to control it, in the top right of this webpage you will see the following tools:
 
