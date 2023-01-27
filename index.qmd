@@ -3,6 +3,10 @@
 
 ## Preface {.unnumbered}
 
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
+library(fontawesome)
+```
+
 This is a Learning Diary for MSc Urban Spatial Science CASA0023 Remotely Sensing Cities and Environment module.
 
 This website contains weekly learning material with structures below:
@@ -16,10 +20,27 @@ This website contains weekly learning material with structures below:
 
 My name is Rahmadita Listianingrum. I am an international student from Indonesia studying at MSc Urban Spatial Science, University College London.
 
+## How to use this book
+
+This website is hosted on GitHub and holds all the practical instructions and data. Data used within the practicals is available online, however occasionally websites can undergo maintenance or be inaccessible due to political factors such as government shutdowns.
+
+To get the most out of this book spend a few minutes learning how to control it, in the top right of this webpage you will see the following tools:
+
+-   `r fa("magnifying-glass")` search the entire book for a specific word
+
+-   `r fa("bars")` control the side / menu bars
+
+-   `r fa("github")` GitHub repository for this book
+
+-   `r fa("twitter")` my personal twitter account
+
+-   `r fa("linkedin")` my linkedin profile
+
 ::: {.callout-note}
 This book is inspired by and adapted from [Dr Andrew Maclahlan's CASA0023 Book](https://andrewmaclachlan.github.io/CASA0023/)
 :::
 
 ::: {.callout-tip}
-You can click the "->" button below for the next chapter!
+- You can click the "->" button below for the next chapter
+- You can select the table of contents at the right hand side
 :::
