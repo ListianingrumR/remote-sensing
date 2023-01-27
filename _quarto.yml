@@ -6,19 +6,42 @@ book:
   title: "Remote Sensing Learning Diary"
   author: "Rahmadita Listianingrum"
   date: "1/26/2023"
+  navbar:
+    logo: img/woman.png
+    collapse: true
+    collapse-below: sm
+    background: light
+    search: true
+    right:
+      - icon: twitter
+        href: https://twitter.com/rahmaditalistia
+      - icon: github
+  sidebar:
+    title: "CASA0023"
+    style: floating
+    reader-mode: true
+  repo-url: https://github.com/ListianingrumR/remote-sensing
+  repo-actions: [edit, issue]
+  sharing: [twitter, facebook]
   chapters:
     - index.qmd
     - week1.qmd
     - summary.qmd
     - references.qmd
+  favicon: "img/woman.png"	
+  reader-mode: true
 
 bibliography: references.bib
+csl: harvard-cite-them-right.csl
 
 format:
   html:
     theme: cosmo
+    light: [cosmo, flatly]
+    dark: [cosmo, darkly]
+    code-link: true
+
   pdf:
     documentclass: scrreprt
 
 editor: visual
-

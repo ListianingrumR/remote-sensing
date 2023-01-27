@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Remote Sensing Learning Diary",
     "section": "",
-    "text": "Preface\nThis is a Learning Diary for CASA0023 Remotely Sensing Cities and Environment module.\nThis website contains summary of learning material of this module each week with structures below:"
+    "text": "Last updated: 2023-01-27\n\nPreface\nThis is a Learning Diary for MSc Urban Spatial Science CASA0023 Remotely Sensing Cities and Environment module.\nThis website contains weekly learning material with structures below:\n\nSummary\nApplications\nReflection\nConclusion\n\n\n\nAbout me\nMy name is Rahmadita Listianingrum. I am an international student from Indonesia studying at MSc Urban Spatial Science, University College London.\n\n\n\n\n\n\nNote\n\n\n\nThis book is inspired by and adapted from Dr Andrew Maclahlan’s CASA0023 Book\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can click the “->” button below for the next chapter!"
   },
   {
     "objectID": "intro.html",
@@ -81,7 +81,7 @@
     "href": "week1.html#summary",
     "title": "1  Week 1 - Introduction to Remote Sensing",
     "section": "1.1 Summary",
-    "text": "1.1 Summary\n\n1.1.1 What is Remote Sensing?\nRemote sensing data is digital images and digital images are made of pixels, and pixels are representations of numeric values.\nThose values represent the amount of reflected electromagnetic energy (which is everywhere, and everything reflects or absorbs it differently, and measurably). The sunlight is hitting the earth and the earth reflects the light and satellites capture it.\nElectromagnetic energy has waves, have wavelength\n\n\n\nElectromagnetic Waves\n\n\nSource: Google Earth Engine 101 Stanford Geospatial Centre\nSpectral sampling\nRGB, Red Green Blue Spectrum\nreflect vs absorb\nin each spectral/spectrum, the image will be white if it reflects the spactrum\n255 spectrum of each RGB\nObserving the surface of the earth\nSatellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc.\nClassifying the pixels through the wavelength"
+    "text": "1.1 Summary\n\n1.1.1 What is Remote Sensing?\nRemote sensing data is digital images and digital images are made of pixels, and pixels are representations of numeric values.\nThose values represent the amount of reflected electromagnetic energy (which is everywhere, and everything reflects or absorbs it differently, and measurably). The sunlight is hitting the earth and the earth reflects the light and satellites capture it.\nElectromagnetic energy has waves, have wavelength\n\n\n\nElectromagnetic Waves\n\n\nSource: Google Earth Engine 101 Stanford Geospatial Centre\nSpectral sampling\nRGB, Red Green Blue Spectrum\nreflect vs absorb\nin each spectral/spectrum, the image will be white if it reflects the spactrum\n255 spectrum of each RGB\nObserving the surface of the earth\nSatellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc (Knuth, 1984).\nClassifying the pixels through the wavelength"
   },
   {
     "objectID": "week1.html#applications",
@@ -109,6 +109,6 @@
     "href": "week1.html#references",
     "title": "1  Week 1 - Introduction to Remote Sensing",
     "section": "1.5 References",
-    "text": "1.5 References"
+    "text": "1.5 References\n\n\nKnuth, D. E. (1984) ‘Literate programming’, Comput.\nJ., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
   }
 ]

@@ -1,20 +1,24 @@
+Last updated: `r Sys.Date()`
+
 # Preface {.unnumbered}
 
-This is a Learning Diary for CASA0023 Remotely Sensing Cities and Environment module.
+This is a Learning Diary for MSc Urban Spatial Science CASA0023 Remotely Sensing Cities and Environment module.
 
-This website contains summary of learning material of this module each week with structures below:
+This website contains weekly learning material with structures below:
 
 1.  Summary
 2.  Applications
 3.  Reflection
 4.  Conclusion
 
-# Introductory
+# About me {.unnumbered}
 
-## My name
+My name is Rahmadita Listianingrum. I am an international student from Indonesia studying at MSc Urban Spatial Science, University College London.
 
 ::: {.callout-note}
+This book is inspired by and adapted from [Dr Andrew Maclahlan's CASA0023 Book](https://andrewmaclachlan.github.io/CASA0023/)
+:::
 
-You can click the "-\>" button below for the next chapter!
-
+::: {.callout-tip}
+You can click the "->" button below for the next chapter!
 :::
