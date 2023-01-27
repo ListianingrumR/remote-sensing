@@ -11,13 +11,16 @@ book:
     collapse: true
     collapse-below: sm
     background: light
+    #reader-mode: true
     search: true
     right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/listianingrumr
       - icon: twitter
         href: https://twitter.com/rahmaditalistia
       - icon: github
   sidebar:
-    title: "CASA0023"
+    title: "Remote"
     style: floating
     reader-mode: true
   repo-url: https://github.com/ListianingrumR/remote-sensing

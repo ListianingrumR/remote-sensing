@@ -1,6 +1,7 @@
-Last updated: `r Sys.Date()`
 
-# Preface {.unnumbered}
+*Last updated: `r Sys.Date()`*
+
+## Preface {.unnumbered}
 
 This is a Learning Diary for MSc Urban Spatial Science CASA0023 Remotely Sensing Cities and Environment module.
 
@@ -11,7 +12,7 @@ This website contains weekly learning material with structures below:
 3.  Reflection
 4.  Conclusion
 
-# About me {.unnumbered}
+## About me {.unnumbered}
 
 My name is Rahmadita Listianingrum. I am an international student from Indonesia studying at MSc Urban Spatial Science, University College London.
 
