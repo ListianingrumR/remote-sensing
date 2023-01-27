@@ -25,7 +25,7 @@ book:
     reader-mode: true
   repo-url: https://github.com/ListianingrumR/remote-sensing
   repo-actions: [edit, issue]
-  sharing: [twitter, facebook]
+  sharing: [linkedin, twitter, facebook]
   chapters:
     - index.qmd
     - week1.qmd

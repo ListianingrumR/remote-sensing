@@ -30,7 +30,7 @@ To get the most out of this book spend a few minutes learning how to control it,
 
 -   `r fa("bars")` control the side / menu bars
 
--   `r fa("share-nodes")` share this book on twitter and/or facebook
+-   `r fa("share-nodes")` share this book on linkedin, twitter, or facebook
 
 -   `r fa("github")` GitHub repository for this book
 
