@@ -7,7 +7,7 @@ book:
   author: "Rahmadita Listianingrum"
   date: "1/26/2023"
   navbar:
-    logo: img/woman.png
+    logo: img/satellite.png
     collapse: true
     collapse-below: sm
     background: light
@@ -31,7 +31,7 @@ book:
     - week1.qmd
     - week2.qmd
     - week3.qmd
-  favicon: "img/woman.png"	
+  favicon: "img/satellite.png"	
   reader-mode: true
 
 bibliography: references.bib
