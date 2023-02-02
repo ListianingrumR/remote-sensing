@@ -78,18 +78,18 @@ SDGs goal 6: Clean water and sanitation
 
 ### Group presentation
 
-Funding: 4000 Pound
-Problem
-Project plan
-Approach
-Risk
-Value for money
-10 mins pitch
-Bidding
+- Funding: 4000 Pound
+- Identify Problem
+- Project plan
+- Approach/Methods
+- Risk
+- Value for money
+- 10 mins pitch/bidding
 
+Focus and constrain:
 1. Feasibility study
 2. Work flow
-3. 2-3 GIS analyst in the government
+3. 4000 pound, 2-3 GIS analyst in the government
 4. Project management
 
 ## Conclusion and Reflection
