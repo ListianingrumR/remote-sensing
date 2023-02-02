@@ -1,4 +1,13 @@
-# Week 3 - Remote Sensing Data
+# Remote Sensing Data
 
+## Summary
+
+## Applications
+
+## Reflection
+
+## Conclusion
+
+## References
 ::: {#refs}
 :::

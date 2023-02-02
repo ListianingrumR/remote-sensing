@@ -1,4 +1,4 @@
-# Week 1 - Introduction to Remote Sensing
+# Introduction to Remote Sensing
 
 ## Summary
 
@@ -29,6 +29,8 @@ in each spectral/spectrum, the image will be white if it reflects the spactrum
 Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc [@knuth84].
 
 **Classifying the pixels through the wavelength**
+
+### Types of Earth Observation
 
 ## Applications
 

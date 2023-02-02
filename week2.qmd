@@ -1,7 +1,16 @@
-# Week 2 - Portfolio Tools
+# Portfolio Tools
 
-In summary, this book has no content whatsoever.
+## Summary
+### Quarto
+### Xaringan
 
-```{r}
-1 + 1
-```
+## Applications
+### Remote sensing sensor (using xaringan)
+
+## Reflection
+
+## Conclusion
+
+## References
+::: {#refs}
+:::

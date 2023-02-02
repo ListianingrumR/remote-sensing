@@ -1,0 +1,52 @@
+# Policy Application
+
+## Summary
+
+### Study Case
+As the sea level rise and groundwater extraction increasing, the future of coastal cities are in danger.
+
+Let's take a look in Jakarta Metropolitan City, the capital city of Indonesia. Quick facts about Jakarta:
+
+- Population: 
+- Area:
+- Water catchment area:
+- Geographical situation:
+- Risk:
+
+**Related issues**
+
+- Clean water
+
+**Related global initiative**
+
+SDGs 
+
+### Data
+
+- InSAR Sentinel-1
+
+### Methods
+
+- 
+
+### Solutions
+
+- 
+
+### Limitations and Future
+
+- Accuracy
+- Future: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)
+
+## Applications
+
+### 
+
+## Reflection
+
+## Conclusion
+
+## References
+
+::: {#refs}
+:::

@@ -79,35 +79,35 @@
   {
     "objectID": "week1.html#summary",
     "href": "week1.html#summary",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "title": "1  Introduction to Remote Sensing",
     "section": "1.1 Summary",
-    "text": "1.1 Summary\n\n1.1.1 What is Remote Sensing?\nRemote sensing data is digital images and digital images are made of pixels, and pixels are representations of numeric values.\nThose values represent the amount of reflected electromagnetic energy (which is everywhere, and everything reflects or absorbs it differently, and measurably). The sunlight is hitting the earth and the earth reflects the light and satellites capture it.\nElectromagnetic energy has waves, have wavelength\n\n\n\nElectromagnetic Waves\n\n\nSource: Google Earth Engine 101 Stanford Geospatial Centre\nSpectral sampling\nRGB, Red Green Blue Spectrum\nreflect vs absorb\nin each spectral/spectrum, the image will be white if it reflects the spactrum\n255 spectrum of each RGB\nObserving the surface of the earth\nSatellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc (Knuth, 1984).\nClassifying the pixels through the wavelength"
+    "text": "1.1 Summary\n\n1.1.1 What is Remote Sensing?\nRemote sensing data is digital images and digital images are made of pixels, and pixels are representations of numeric values.\nThose values represent the amount of reflected electromagnetic energy (which is everywhere, and everything reflects or absorbs it differently, and measurably). The sunlight is hitting the earth and the earth reflects the light and satellites capture it.\nElectromagnetic energy has waves, have wavelength\n\n\n\nElectromagnetic Waves\n\n\nSource: Google Earth Engine 101 Stanford Geospatial Centre\nSpectral sampling\nRGB, Red Green Blue Spectrum\nreflect vs absorb\nin each spectral/spectrum, the image will be white if it reflects the spactrum\n255 spectrum of each RGB\nObserving the surface of the earth\nSatellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc (Knuth, 1984).\nClassifying the pixels through the wavelength\n\n\n1.1.2 Types of Earth Observation"
   },
   {
     "objectID": "week1.html#applications",
     "href": "week1.html#applications",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "title": "1  Introduction to Remote Sensing",
     "section": "1.2 Applications",
     "text": "1.2 Applications\n\n1.2.1"
   },
   {
     "objectID": "week1.html#reflection",
     "href": "week1.html#reflection",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "title": "1  Introduction to Remote Sensing",
     "section": "1.3 Reflection",
     "text": "1.3 Reflection"
   },
   {
     "objectID": "week1.html#conclusion",
     "href": "week1.html#conclusion",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "title": "1  Introduction to Remote Sensing",
     "section": "1.4 Conclusion",
     "text": "1.4 Conclusion"
   },
   {
     "objectID": "week1.html#references",
     "href": "week1.html#references",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "title": "1  Introduction to Remote Sensing",
     "section": "1.5 References",
     "text": "1.5 References\n\n\nKnuth, D. E. (1984) ‘Literate programming’, Comput.\nJ., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
   },
@@ -135,8 +135,127 @@
   {
     "objectID": "week2.html",
     "href": "week2.html",
-    "title": "2  Week 2 - Portfolio Tools",
+    "title": "2  Portfolio Tools",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "week2.html#summary",
+    "href": "week2.html#summary",
+    "title": "2  Portfolio Tools",
+    "section": "2.1 Summary",
+    "text": "2.1 Summary\n\n2.1.1 Quarto\n\n\n2.1.2 Xaringan"
+  },
+  {
+    "objectID": "week2.html#applications",
+    "href": "week2.html#applications",
+    "title": "2  Portfolio Tools",
+    "section": "2.2 Applications",
+    "text": "2.2 Applications\n\n2.2.1 Remote sensing sensor (using xaringan)"
+  },
+  {
+    "objectID": "week2.html#reflection",
+    "href": "week2.html#reflection",
+    "title": "2  Portfolio Tools",
+    "section": "2.3 Reflection",
+    "text": "2.3 Reflection"
+  },
+  {
+    "objectID": "week2.html#conclusion",
+    "href": "week2.html#conclusion",
+    "title": "2  Portfolio Tools",
+    "section": "2.4 Conclusion",
+    "text": "2.4 Conclusion"
+  },
+  {
+    "objectID": "week2.html#references",
+    "href": "week2.html#references",
+    "title": "2  Portfolio Tools",
+    "section": "2.5 References",
+    "text": "2.5 References"
+  },
+  {
+    "objectID": "week3.html#summary",
+    "href": "week3.html#summary",
+    "title": "3  Remote Sensing Data",
+    "section": "3.1 Summary",
+    "text": "3.1 Summary"
+  },
+  {
+    "objectID": "week3.html#applications",
+    "href": "week3.html#applications",
+    "title": "3  Remote Sensing Data",
+    "section": "3.2 Applications",
+    "text": "3.2 Applications"
+  },
+  {
+    "objectID": "week3.html#reflection",
+    "href": "week3.html#reflection",
+    "title": "3  Remote Sensing Data",
+    "section": "3.3 Reflection",
+    "text": "3.3 Reflection"
+  },
+  {
+    "objectID": "week3.html#conclusion",
+    "href": "week3.html#conclusion",
+    "title": "3  Remote Sensing Data",
+    "section": "3.4 Conclusion",
+    "text": "3.4 Conclusion"
+  },
+  {
+    "objectID": "week3.html#references",
+    "href": "week3.html#references",
+    "title": "3  Remote Sensing Data",
+    "section": "3.5 References",
+    "text": "3.5 References"
+  },
+  {
+    "objectID": "week4.html#summary",
+    "href": "week4.html#summary",
+    "title": "4  Policy Application",
+    "section": "4.1 Summary",
+    "text": "4.1 Summary\n\n4.1.1 Study Case\nAs the sea level rise and groundwater extraction increasing, the future of coastal cities are in danger.\nLet’s take a look in Jakarta Metropolitan City, the capital city of Indonesia. Quick facts about Jakarta:\n\nPopulation:\nArea:\nWater catchment area:\nGeographical situation:\nRisk:\n\nRelated issues\n\nClean water\n\nRelated global initiative\nSDGs\n\n\n4.1.2 Data\n\nInSAR Sentinel-1\n\n\n\n4.1.3 Methods\n\n\n\n\n\n4.1.4 Solutions\n\n\n\n\n\n4.1.5 Limitations and Future\n\nAccuracy\nFuture: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)"
+  },
+  {
+    "objectID": "week4.html#methods",
+    "href": "week4.html#methods",
+    "title": "4  Policy Application",
+    "section": "4.2 ### Methods",
+    "text": "4.2 ### Methods"
+  },
+  {
+    "objectID": "week4.html#solutions",
+    "href": "week4.html#solutions",
+    "title": "4  Policy Application",
+    "section": "4.3 ### Solutions",
+    "text": "4.3 ### Solutions\n\n4.3.1 Limitations and Future\n\nAccuracy\nFuture: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)"
+  },
+  {
+    "objectID": "week4.html#applications",
+    "href": "week4.html#applications",
+    "title": "4  Policy Application",
+    "section": "4.2 Applications",
+    "text": "4.2 Applications\n\n4.2.1"
+  },
+  {
+    "objectID": "week4.html#reflection",
+    "href": "week4.html#reflection",
+    "title": "4  Policy Application",
+    "section": "4.3 Reflection",
+    "text": "4.3 Reflection"
+  },
+  {
+    "objectID": "week4.html#conclusion",
+    "href": "week4.html#conclusion",
+    "title": "4  Policy Application",
+    "section": "4.4 Conclusion",
+    "text": "4.4 Conclusion"
+  },
+  {
+    "objectID": "week4.html#references",
+    "href": "week4.html#references",
+    "title": "4  Policy Application",
+    "section": "4.5 References",
+    "text": "4.5 References"
   }
 ]
