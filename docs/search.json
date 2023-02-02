@@ -214,7 +214,7 @@
     "href": "week4.html#summary",
     "title": "4  Policy Application",
     "section": "4.1 Summary",
-    "text": "4.1 Summary\n\n4.1.1 Study Case\nAs the sea level rise and groundwater extraction increasing, the future of coastal cities are in danger.\nLet’s take a look in Jakarta Metropolitan City, the capital city of Indonesia. Quick facts about Jakarta:\n\nPopulation:\nArea:\nWater catchment area:\nGeographical situation:\nRisk:\n\nRelated issues\n\nClean water\n\nRelated global initiative\nSDGs\n\n\n4.1.2 Data\n\nInSAR Sentinel-1\n\n\n\n4.1.3 Methods\n\n\n\n\n\n4.1.4 Solutions\n\n\n\n\n\n4.1.5 Limitations and Future\n\nAccuracy\nFuture: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)"
+    "text": "4.1 Summary\n\n4.1.1 Study Case\nAs the sea level rise and groundwater extraction increasing, the future of coastal cities are in danger.\nLet’s take a look in Jakarta Metropolitan City, the capital city of Indonesia. Quick facts about Jakarta:\n\nPopulation:\nArea:\nWater catchment area:\nGeographical situation:\nRisk:\n\nReference: Estimation, modeling, and prediction of land subsidence using Sentinel-1 time series in Tehran-Shahriar plain: A machine learning-based investigation\nRelated issues\n\nClean water\n\nRelated global initiative\nSDGs\n\n\n4.1.2 Data\n\nInSAR Sentinel-1\nIn this study, a total number of 193 Sentinel-1A images acquired between October 8, 2014 and March 28, 2019 were used.\nAdditionally, we used the Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) for preliminary geocoding and removing the topographic phase component.\n\n\n\n4.1.3 Methods\n\nIn the former category, water flow and soil mechanics have been modeled through simulating the process of LS in aquifer systems according to groundwater abstraction and geological, geotechnical and hydrogeological conditions (Fernandez et al., 2018; Bajni et al., 2019; Zhu et al., 2020). In such methods, it is necessary to access accurate hydrogeological data and adopt various assumptions (Ilia et al., 2018).\nSeveral studies have applied Persistent Scatterer Interferometry (PSI) techniques and statistical-empirical methods such as back propagation neural networks (BPNs) (Dehghani et al., 2013), long short-term memory (LSTM) (Li et al., 2020), geographically weighted LSTM (GW-LSTM) (Li et al., 2021), Random forest (RF) (Ilia et al., 2018), analytical hierarchy process coupled with sensitivity analysis (AHP-SA) (Zhu et al., 2013), and GIS based spatial analysis (Zhu et al., 2015) to model and predict LS.\nThe geological and hydrological parameters considered for LS modeling using the ML methods include groundwater level change, aquifer media, precipitation rate, slope, land use, depth to water table, distance from exploiting wells, distance from rivers, and distance from faults.\nAll these layers were converted to raster, and their values were extracted to PS points detected by PS-InSAR analysis as sample points. The effects of these parameters on LS were investigated and the most important parameters were determined.\nIn this paper, we applied the PS-InSAR technique proposed by Ferretti et al. (2001) to monitor LS at millimeter precision (Perissin, 2016) over the study period. This technique is based on detection of points (or targets) called the permanent scatterers (PS) that remain unchanged over the entire period. For PS-InSAR analysis, single look complex (SLC) images of the same area were co-registered to a single master configuration preferably selected from the middle of the spatial and temporal baseline spaces (Hanssen, 2001). Interferograms were then generated from multi-temporal SAR images. Finally, the orbital data and the external SRTM DEM were used to remove the Earth curvature influence and the topographic component of the interferometric phase, respectively.\n\nIn conclusion, this study combine: PS-InSAR (mm precision), ANN, and RF to model the\n\n\n4.1.4 Solutions\nCurrent policy\nMari Simak Peraturan Larangan Penggunaan Air Tanah di DKI Jakarta\nGroundwater, key to the Sustainable Development Goals (SDGs)\nSDGs goal 6: Clean water and sanitation\n\nIndonesian government set the restriction of groundwater extraction by different fees, will it work?\n\n\n\n\n4.1.5 Limitations and Future\n\nTo validate the estimated LS measurements, it is necessary that the vertical displacement is compared with the GPS measurements.\nAccuracy\nFuture: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)"
   },
   {
     "objectID": "week4.html#methods",
@@ -235,7 +235,7 @@
     "href": "week4.html#applications",
     "title": "4  Policy Application",
     "section": "4.2 Applications",
-    "text": "4.2 Applications\n\n4.2.1"
+    "text": "4.2 Applications\n\n4.2.1 Steps\n\nIdentify policy, is it right? (e.g. coolroof/painting white, indonesian resrtiction of groundwater extraction by fare)\n\n\n\n\n4.2.2 Group presentation\nFunding: 4000 Pound Problem Project plan Approach Risk Value for money 10 mins pitch Bidding\n\nFeasibility study\nWork flow\n2-3 GIS analyst in the government\nProject management"
   },
   {
     "objectID": "week4.html#reflection",
@@ -255,7 +255,14 @@
     "objectID": "week4.html#references",
     "href": "week4.html#references",
     "title": "4  Policy Application",
-    "section": "4.5 References",
-    "text": "4.5 References"
+    "section": "4.4 References",
+    "text": "4.4 References"
+  },
+  {
+    "objectID": "week4.html#conclusion-and-reflection",
+    "href": "week4.html#conclusion-and-reflection",
+    "title": "4  Policy Application",
+    "section": "4.3 Conclusion and Reflection",
+    "text": "4.3 Conclusion and Reflection"
   }
 ]

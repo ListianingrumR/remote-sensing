@@ -217,11 +217,11 @@ div.csl-indent {
   </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">4.2</span>  Applications</a>
   <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="toc-section-number">4.2.1</span>  </a></li>
+  <li><a href="#steps" id="toc-steps" class="nav-link" data-scroll-target="#steps"><span class="toc-section-number">4.2.1</span>  Steps</a></li>
+  <li><a href="#group-presentation" id="toc-group-presentation" class="nav-link" data-scroll-target="#group-presentation"><span class="toc-section-number">4.2.2</span>  Group presentation</a></li>
   </ul></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="toc-section-number">4.3</span>  Reflection</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="toc-section-number">4.4</span>  Conclusion</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">4.5</span>  References</a></li>
+  <li><a href="#conclusion-and-reflection" id="toc-conclusion-and-reflection" class="nav-link" data-scroll-target="#conclusion-and-reflection"><span class="toc-section-number">4.3</span>  Conclusion and Reflection</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">4.4</span>  References</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ListianingrumR/remote-sensing/edit/main/week4.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/ListianingrumR/remote-sensing/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -258,6 +258,7 @@ div.csl-indent {
 <li>Geographical situation:</li>
 <li>Risk:</li>
 </ul>
+<p>Reference: <a href="https://www.sciencedirect.com/science/article/pii/S2352938521002275">Estimation, modeling, and prediction of land subsidence using Sentinel-1 time series in Tehran-Shahriar plain: A machine learning-based investigation</a></p>
 <p><strong>Related issues</strong></p>
 <ul>
 <li>Clean water</li>
@@ -269,42 +270,66 @@ div.csl-indent {
 <h3 data-number="4.1.2" class="anchored" data-anchor-id="data"><span class="header-section-number">4.1.2</span> Data</h3>
 <ul>
 <li>InSAR Sentinel-1</li>
+<li>In this study, a total number of 193 Sentinel-1A images acquired between October 8, 2014 and March 28, 2019 were used.</li>
+<li>Additionally, we used the Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) for preliminary geocoding and removing the topographic phase component.</li>
 </ul>
 </section>
 <section id="methods" class="level3" data-number="4.1.3">
 <h3 data-number="4.1.3" class="anchored" data-anchor-id="methods"><span class="header-section-number">4.1.3</span> Methods</h3>
 <ul>
-<li></li>
+<li><p>In the former category, water flow and soil mechanics have been modeled through simulating the process of LS in aquifer systems according to groundwater abstraction and geological, geotechnical and hydrogeological conditions (Fernandez et al., 2018; Bajni et al., 2019; Zhu et al., 2020). In such methods, it is necessary to access accurate hydrogeological data and adopt various assumptions (Ilia et al., 2018).</p></li>
+<li><p>Several studies have applied Persistent Scatterer Interferometry (PSI) techniques and statistical-empirical methods such as back propagation neural networks (BPNs) (Dehghani et al., 2013), long short-term memory (LSTM) (Li et al., 2020), geographically weighted LSTM (GW-LSTM) (Li et al., 2021), Random forest (RF) (Ilia et al., 2018), analytical hierarchy process coupled with sensitivity analysis (AHP-SA) (Zhu et al., 2013), and GIS based spatial analysis (Zhu et al., 2015) to model and predict LS.</p></li>
+<li><p>The geological and hydrological parameters considered for LS modeling using the ML methods include groundwater level change, aquifer media, precipitation rate, slope, land use, depth to water table, distance from exploiting wells, distance from rivers, and distance from faults.</p></li>
+<li><p>All these layers were converted to raster, and their values were extracted to PS points detected by PS-InSAR analysis as sample points. The effects of these parameters on LS were investigated and the most important parameters were determined.</p></li>
+<li><p>In this paper, we applied the PS-InSAR technique proposed by Ferretti et al.&nbsp;(2001) to monitor LS at millimeter precision (Perissin, 2016) over the study period. This technique is based on detection of points (or targets) called the permanent scatterers (PS) that remain unchanged over the entire period. For PS-InSAR analysis, single look complex (SLC) images of the same area were co-registered to a single master configuration preferably selected from the middle of the spatial and temporal baseline spaces (Hanssen, 2001). Interferograms were then generated from multi-temporal SAR images. Finally, the orbital data and the external SRTM DEM were used to remove the Earth curvature influence and the topographic component of the interferometric phase, respectively.</p></li>
 </ul>
+<p>In conclusion, this study combine: PS-InSAR (mm precision), ANN, and RF to model the</p>
 </section>
 <section id="solutions" class="level3" data-number="4.1.4">
 <h3 data-number="4.1.4" class="anchored" data-anchor-id="solutions"><span class="header-section-number">4.1.4</span> Solutions</h3>
+<p><strong>Current policy</strong></p>
+<p><a href="https://kfmap.asia/blog/mari-simak-peraturan-larangan-penggunaan-air-tanah-di-dki-jakarta/2115">Mari Simak Peraturan Larangan Penggunaan Air Tanah di DKI Jakarta</a></p>
+<p><a href="https://www.un-igrac.org/stories/groundwater-key-sustainable-development-goals-sdgs">Groundwater, key to the Sustainable Development Goals (SDGs)</a></p>
+<p>SDGs goal 6: Clean water and sanitation</p>
 <ul>
+<li><p>Indonesian government set the restriction of groundwater extraction by different fees, will it work?</p></li>
 <li></li>
 </ul>
 </section>
 <section id="limitations-and-future" class="level3" data-number="4.1.5">
 <h3 data-number="4.1.5" class="anchored" data-anchor-id="limitations-and-future"><span class="header-section-number">4.1.5</span> Limitations and Future</h3>
 <ul>
-<li>Accuracy</li>
-<li>Future: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)</li>
+<li><p>To validate the estimated LS measurements, it is necessary that the vertical displacement is compared with the GPS measurements.</p></li>
+<li><p>Accuracy</p></li>
+<li><p>Future: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)</p></li>
 </ul>
 </section>
 </section>
 <section id="applications" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">4.2</span> Applications</h2>
-<section id="section" class="level3" data-number="4.2.1">
-<h3 data-number="4.2.1" class="anchored" data-anchor-id="section"><span class="header-section-number">4.2.1</span> </h3>
+<section id="steps" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="steps"><span class="header-section-number">4.2.1</span> Steps</h3>
+<ol type="1">
+<li>Identify policy, is it right? (e.g.&nbsp;coolroof/painting white, indonesian resrtiction of groundwater extraction by fare)</li>
+<li></li>
+</ol>
+</section>
+<section id="group-presentation" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="group-presentation"><span class="header-section-number">4.2.2</span> Group presentation</h3>
+<p>Funding: 4000 Pound Problem Project plan Approach Risk Value for money 10 mins pitch Bidding</p>
+<ol type="1">
+<li>Feasibility study</li>
+<li>Work flow</li>
+<li>2-3 GIS analyst in the government</li>
+<li>Project management</li>
+</ol>
 </section>
 </section>
-<section id="reflection" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">4.3</span> Reflection</h2>
+<section id="conclusion-and-reflection" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="conclusion-and-reflection"><span class="header-section-number">4.3</span> Conclusion and Reflection</h2>
 </section>
-<section id="conclusion" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">4.4</span> Conclusion</h2>
-</section>
-<section id="references" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="references"><span class="header-section-number">4.5</span> References</h2>
+<section id="references" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="references"><span class="header-section-number">4.4</span> References</h2>
 <div id="refs" role="doc-bibliography" style="display: none">
 
 </div>
