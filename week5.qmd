@@ -2,11 +2,13 @@
 
 ## Summary
 
+@knuth84
+
 ## Applications
 
 ## Conclusion and Reflection
 
-## References
+## References {.unnumbered}
 
 ::: {#refs}
 :::
