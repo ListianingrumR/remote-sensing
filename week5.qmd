@@ -1,0 +1,12 @@
+# Introduction to GEE (Google Earth Engine)
+
+## Summary
+
+## Applications
+
+## Conclusion and Reflection
+
+## References
+
+::: {#refs}
+:::

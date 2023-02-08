@@ -3,48 +3,46 @@
 ## Summary
 
 ### Study Case
+
 As the sea level rise and groundwater extraction increasing, the future of coastal cities are in danger.
 
 Let's take a look in Jakarta Metropolitan City, the capital city of Indonesia. Quick facts about Jakarta:
 
-- Population: 
-- Area:
-- Water catchment area:
-- Geographical situation:
-- Risk:
+-   Population:
+-   Area:
+-   Water catchment area:
+-   Geographical situation:
+-   Risk:
 
-Reference:
-[Estimation, modeling, and prediction of land subsidence using Sentinel-1 time series in Tehran-Shahriar plain: A machine learning-based investigation](https://www.sciencedirect.com/science/article/pii/S2352938521002275)
-
+Reference: [Estimation, modeling, and prediction of land subsidence using Sentinel-1 time series in Tehran-Shahriar plain: A machine learning-based investigation](https://www.sciencedirect.com/science/article/pii/S2352938521002275)
 
 **Related issues**
 
-- Clean water
+-   Clean water
 
 **Related global initiative**
 
-SDGs 
+SDGs
 
 ### Data
 
-- InSAR Sentinel-1
-- In this study, a total number of 193 Sentinel-1A images acquired between October 8, 2014 and March 28, 2019 were used. 
-- Additionally, we used the Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) for preliminary geocoding and removing the topographic phase component.
+-   InSAR Sentinel-1
+-   In this study, a total number of 193 Sentinel-1A images acquired between October 8, 2014 and March 28, 2019 were used.
+-   Additionally, we used the Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) for preliminary geocoding and removing the topographic phase component.
 
 ### Methods
 
-- In the former category, water flow and soil mechanics have been modeled through simulating the process of LS in aquifer systems according to groundwater abstraction and geological, geotechnical and hydrogeological conditions (Fernandez et al., 2018; Bajni et al., 2019; Zhu et al., 2020). In such methods, it is necessary to access accurate hydrogeological data and adopt various assumptions (Ilia et al., 2018).
+-   In the former category, water flow and soil mechanics have been modeled through simulating the process of LS in aquifer systems according to groundwater abstraction and geological, geotechnical and hydrogeological conditions (Fernandez et al., 2018; Bajni et al., 2019; Zhu et al., 2020). In such methods, it is necessary to access accurate hydrogeological data and adopt various assumptions (Ilia et al., 2018).
 
-- Several studies have applied Persistent Scatterer Interferometry (PSI) techniques and statistical-empirical methods such as back propagation neural networks (BPNs) (Dehghani et al., 2013), long short-term memory (LSTM) (Li et al., 2020), geographically weighted LSTM (GW-LSTM) (Li et al., 2021), Random forest (RF) (Ilia et al., 2018), analytical hierarchy process coupled with sensitivity analysis (AHP-SA) (Zhu et al., 2013), and GIS based spatial analysis (Zhu et al., 2015) to model and predict LS.
+-   Several studies have applied Persistent Scatterer Interferometry (PSI) techniques and statistical-empirical methods such as back propagation neural networks (BPNs) (Dehghani et al., 2013), long short-term memory (LSTM) (Li et al., 2020), geographically weighted LSTM (GW-LSTM) (Li et al., 2021), Random forest (RF) (Ilia et al., 2018), analytical hierarchy process coupled with sensitivity analysis (AHP-SA) (Zhu et al., 2013), and GIS based spatial analysis (Zhu et al., 2015) to model and predict LS.
 
-- The geological and hydrological parameters considered for LS modeling using the ML methods include groundwater level change, aquifer media, precipitation rate, slope, land use, depth to water table, distance from exploiting wells, distance from rivers, and distance from faults.
+-   The geological and hydrological parameters considered for LS modeling using the ML methods include groundwater level change, aquifer media, precipitation rate, slope, land use, depth to water table, distance from exploiting wells, distance from rivers, and distance from faults.
 
-- All these layers were converted to raster, and their values were extracted to PS points detected by PS-InSAR analysis as sample points. The effects of these parameters on LS were investigated and the most important parameters were determined.
+-   All these layers were converted to raster, and their values were extracted to PS points detected by PS-InSAR analysis as sample points. The effects of these parameters on LS were investigated and the most important parameters were determined.
 
-- In this paper, we applied the PS-InSAR technique proposed by Ferretti et al. (2001) to monitor LS at millimeter precision (Perissin, 2016) over the study period. This technique is based on detection of points (or targets) called the permanent scatterers (PS) that remain unchanged over the entire period. For PS-InSAR analysis, single look complex (SLC) images of the same area were co-registered to a single master configuration preferably selected from the middle of the spatial and temporal baseline spaces (Hanssen, 2001). Interferograms were then generated from multi-temporal SAR images. Finally, the orbital data and the external SRTM DEM were used to remove the Earth curvature influence and the topographic component of the interferometric phase, respectively.
+-   In this paper, we applied the PS-InSAR technique proposed by Ferretti et al. (2001) to monitor LS at millimeter precision (Perissin, 2016) over the study period. This technique is based on detection of points (or targets) called the permanent scatterers (PS) that remain unchanged over the entire period. For PS-InSAR analysis, single look complex (SLC) images of the same area were co-registered to a single master configuration preferably selected from the middle of the spatial and temporal baseline spaces (Hanssen, 2001). Interferograms were then generated from multi-temporal SAR images. Finally, the orbital data and the external SRTM DEM were used to remove the Earth curvature influence and the topographic component of the interferometric phase, respectively.
 
-In conclusion, this study combine:
-PS-InSAR (mm precision), ANN, and RF to model the 
+In conclusion, this study combine: PS-InSAR (mm precision), ANN, and RF to model the
 
 ### Solutions
 
@@ -56,41 +54,36 @@ PS-InSAR (mm precision), ANN, and RF to model the
 
 SDGs goal 6: Clean water and sanitation
 
-- Indonesian government set the restriction of groundwater extraction by different fees, will it work?
+-   Indonesian government set the restriction of groundwater extraction by different fees, will it work?
 
-- 
+-   
 
 ### Limitations and Future
 
-- To validate the estimated LS measurements, it is necessary that the vertical displacement is compared with the GPS measurements.
+-   To validate the estimated LS measurements, it is necessary that the vertical displacement is compared with the GPS measurements.
 
-- Accuracy
+-   Accuracy
 
-- Future: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)
+-   Future: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)
 
 ## Applications
 
 ### Steps
 
-1. Identify policy, is it right?
-(e.g. coolroof/painting white, indonesian resrtiction of groundwater extraction by fare)
-2. 
+1.  Identify policy, is it right? (e.g. coolroof/painting white, indonesian resrtiction of groundwater extraction by fare)
+2.  
 
 ### Group presentation
 
-- Funding: 4000 Pound
-- Identify Problem
-- Project plan
-- Approach/Methods
-- Risk
-- Value for money
-- 10 mins pitch/bidding
+-   Funding: 4000 Pound
+-   Identify Problem
+-   Project plan
+-   Approach/Methods
+-   Risk
+-   Value for money
+-   10 mins pitch/bidding
 
-Focus and constrain:
-1. Feasibility study
-2. Work flow
-3. 4000 pound, 2-3 GIS analyst in the government
-4. Project management
+Focus and constrain: 1. Feasibility study 2. Work flow 3. 4000 pound, 2-3 GIS analyst in the government 4. Project management
 
 ## Conclusion and Reflection
 
