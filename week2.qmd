@@ -1,5 +1,13 @@
 # Portfolio Tools
 
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
+library(fontawesome)
+```
+
+| Material | Link |
+|---------------|:--------------|
+| Sentinel - The Remote Sensing Sensor | [`r fa("person-chalkboard")`](https://listianingrumr.github.io/sensor) |
+
 ## Summary
 ### Quarto
 ### Xaringan
