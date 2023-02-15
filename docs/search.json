@@ -25,7 +25,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Knuth, D. E. (1984) ‘Literate programming’, Comput.\nJ., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "intro.html#what-is-remote-sensing",
@@ -81,21 +81,21 @@
     "href": "week1.html#summary",
     "title": "1  Introduction to Remote Sensing",
     "section": "1.1 Summary",
-    "text": "1.1 Summary\n\n1.1.1 What is Remote Sensing?\nRemote sensing data is digital images and digital images are made of pixels, and pixels are representations of numeric values.\nThose values represent the amount of reflected electromagnetic energy (which is everywhere, and everything reflects or absorbs it differently, and measurably). The sunlight is hitting the earth and the earth reflects the light and satellites capture it.\nElectromagnetic energy has waves, have wavelength\n\n\n\nElectromagnetic Waves\n\n\nSource: Google Earth Engine 101 Stanford Geospatial Centre\nSpectral sampling\nRGB, Red Green Blue Spectrum\nreflect vs absorb\nin each spectral/spectrum, the image will be white if it reflects the spactrum\n255 spectrum of each RGB\nObserving the surface of the earth\nSatellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc (Knuth, 1984).\nClassifying the pixels through the wavelength\n\n\n1.1.2 Types of Earth Observation"
+    "text": "1.1 Summary\n\n1.1.1 What is Remote Sensing?\nRemote sensing data is digital images and digital images are made of pixels, and pixels are representations of numeric values.\nThose values represent the amount of reflected electromagnetic energy (which is everywhere, and everything reflects or absorbs it differently, and measurably). The sunlight is hitting the earth and the earth reflects the light and satellites capture it.\nElectromagnetic energy has waves, have wavelength\n\n\n\nElectromagnetic Waves\n\n\nSource: Google Earth Engine 101 Stanford Geospatial Centre\nSpectral sampling\nRGB, Red Green Blue Spectrum\nreflect vs absorb\nin each spectral/spectrum, the image will be white if it reflects the spactrum\n255 spectrum of each RGB\nObserving the surface of the earth\nSatellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc (Knuth, 1984).\nClassifying the pixels through the wavelength"
   },
   {
     "objectID": "week1.html#applications",
     "href": "week1.html#applications",
     "title": "1  Introduction to Remote Sensing",
     "section": "1.2 Applications",
-    "text": "1.2 Applications\n\n1.2.1"
+    "text": "1.2 Applications"
   },
   {
     "objectID": "week1.html#reflection",
     "href": "week1.html#reflection",
     "title": "1  Introduction to Remote Sensing",
     "section": "1.3 Reflection",
-    "text": "1.3 Reflection"
+    "text": "1.3 Reflection\n\n\n\n\nKnuth, D. E. (1984) “Literate programming,” Comput. J., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "week1.html#conclusion",
@@ -130,7 +130,7 @@
     "href": "index.html#how-to-use-this-book",
     "title": "Remote Sensing Learning Diary",
     "section": "How to use this book",
-    "text": "How to use this book\nThis website is hosted on GitHub. Data used within this book is available online, however occasionally websites can undergo maintenance or be inaccessible due to political factors such as government shutdowns.\nTo get the most out of this book spend a few minutes learning how to control it, in the top right of this webpage you will see the following tools:\n\n search the entire book for a specific word\n control the side / menu bars\n share this book on linkedin, twitter, or facebook\n GitHub repository for this book\n my personal twitter account\n my linkedin profile\n\n\n\n\n\n\n\nNote\n\n\n\nThis book is inspired by and adapted from Dr Andrew Maclahlan’s CASA0023 Book\n\n\n\n\n\n\n\n\nTip\n\n\n\n\nYou can click the “->” button below for the next chapter\nYou can select the table of contents at the right hand side"
+    "text": "How to use this book\nThis website is hosted on GitHub. Data used within this book is available online, however occasionally websites can undergo maintenance or be inaccessible due to political factors such as government shutdowns.\nTo get the most out of this book spend a few minutes learning how to control it, in the top right of this webpage you will see the following tools:\n\n\n search the entire book for a specific word\n control the side / menu bars\n share this book on linkedin, twitter, or facebook\n GitHub repository for this book\n my personal twitter account\n my linkedin profile\n\n\n\n\n\n\n\nNote\n\n\n\nThis book is inspired by and adapted from Dr Andrew Maclahlan’s CASA0023 Book\n\n\n\n\n\n\n\n\nTip\n\n\n\n\nYou can click the “->” button below for the next chapter\nYou can select the table of contents at the right hand side"
   },
   {
     "objectID": "week2.html",
@@ -142,22 +142,22 @@
   {
     "objectID": "week2.html#summary",
     "href": "week2.html#summary",
-    "title": "2  Portfolio Tools",
-    "section": "2.1 Summary",
-    "text": "2.1 Summary\n\n2.1.1 Quarto\n\n\n2.1.2 Xaringan"
+    "title": "\n2  Portfolio Tools\n",
+    "section": "\n2.1 Summary",
+    "text": "2.1 Summary\n\n2.1.1 Quarto\n\n2.1.2 Xaringan"
   },
   {
     "objectID": "week2.html#applications",
     "href": "week2.html#applications",
-    "title": "2  Portfolio Tools",
-    "section": "2.2 Applications",
-    "text": "2.2 Applications\n\n2.2.1 Remote sensing sensor (using xaringan)"
+    "title": "\n2  Portfolio Tools\n",
+    "section": "\n2.2 Applications",
+    "text": "2.2 Applications\n\n2.2.1 Portfolio tool application: xaringan\n\n\nRemote Sensing Sensor Slides\nLink\n\n\nSentinel - The Remote Sensing Sensor"
   },
   {
     "objectID": "week2.html#reflection",
     "href": "week2.html#reflection",
-    "title": "2  Portfolio Tools",
-    "section": "2.3 Reflection",
+    "title": "\n2  Portfolio Tools\n",
+    "section": "\n2.3 Reflection",
     "text": "2.3 Reflection"
   },
   {
@@ -284,7 +284,7 @@
     "href": "week5.html#conclusion-and-reflection",
     "title": "5  Introduction to GEE (Google Earth Engine)",
     "section": "5.3 Conclusion and Reflection",
-    "text": "5.3 Conclusion and Reflection"
+    "text": "5.3 Conclusion and Reflection\n\n\n\n\nKnuth, D. E. (1984) “Literate programming,” Comput. J., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "week5.html#references",

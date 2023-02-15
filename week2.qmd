@@ -4,21 +4,15 @@
 library(fontawesome)
 ```
 
-| Material | Link |
-|---------------|:--------------|
-| Sentinel - The Remote Sensing Sensor | [`r fa("person-chalkboard")`](https://listianingrumr.github.io/sensor) |
-
 ## Summary
 ### Quarto
 ### Xaringan
 
 ## Applications
-### Remote sensing sensor (using xaringan)
+### Portfolio tool application: xaringan
+
+| Remote Sensing Sensor Slides | Link |
+|---------------|:--------------|
+| Sentinel - The Remote Sensing Sensor | [`r fa("person-chalkboard")`](https://listianingrumr.github.io/sensor) |
 
 ## Reflection
-
-## Conclusion
-
-## References
-::: {#refs}
-:::

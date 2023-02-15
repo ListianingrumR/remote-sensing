@@ -5,9 +5,3 @@
 ## Applications
 
 ## Reflection
-
-## Conclusion
-
-## References
-::: {#refs}
-:::

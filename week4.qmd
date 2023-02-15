@@ -86,8 +86,3 @@ SDGs goal 6: Clean water and sanitation
 Focus and constrain: 1. Feasibility study 2. Work flow 3. 4000 pound, 2-3 GIS analyst in the government 4. Project management
 
 ## Conclusion and Reflection
-
-## References
-
-::: {#refs}
-:::

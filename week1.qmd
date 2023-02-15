@@ -30,16 +30,6 @@ Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, pa
 
 **Classifying the pixels through the wavelength**
 
-### Types of Earth Observation
-
 ## Applications
 
-### 
-
 ## Reflection
-
-## Conclusion
-
-## References
-::: {#refs}
-:::

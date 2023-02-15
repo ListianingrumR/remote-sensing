@@ -4,7 +4,10 @@
 ## Preface {.unnumbered}
 
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
+# install.packages("devtools") from https://emitanaka.org/anicon/
+#devtools::install_github('emitanaka/anicon')
 library(fontawesome)
+#library(devtools)
 ```
 
 This is a Learning Diary for MSc Urban Spatial Science CASA0023 Remotely Sensing Cities and Environment module.
@@ -25,6 +28,8 @@ My name is Rahmadita Listianingrum. I am an international student from Indonesia
 This website is hosted on GitHub. Data used within this book is available online, however occasionally websites can undergo maintenance or be inaccessible due to political factors such as government shutdowns.
 
 To get the most out of this book spend a few minutes learning how to control it, in the top right of this webpage you will see the following tools:
+
+<link rel="stylesheet" href="font-awesome-animation.min.css">
 
 -   `r fa("magnifying-glass")` search the entire book for a specific word
 
