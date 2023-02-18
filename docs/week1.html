@@ -80,6 +80,9 @@ div.csl-indent {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -249,6 +252,51 @@ div.csl-indent {
 
 <section id="summary" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">1.1</span> Summary</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">flowchart LR;
+    id1[Remote Sensing]--&gt;id11[Sensors];
+      id11--&gt;id111[Types of Sensors];
+        id111--&gt;id1111[UAVs and Drones];
+        id111--&gt;id1112[Airplane and Helicopters];
+        id111--&gt;id1113[Low Earth Orbit Satellites];
+      id11--&gt;id112[Types of Resolutions];
+        id112--&gt;id1121[Spatial Resolution];
+        id112--&gt;id1122[Spectral Resolution];
+        id112--&gt;id1123[Temporal Resolution];
+      id11--&gt;id115[Types of Orbits];
+        id115--&gt;id1151[Geostationary];
+        id115--&gt;id1152[Sun-synchronous];
+        id115--&gt;id1153[Polar];
+    id1--&gt;id12[Types of Remote Sensing];
+      id12--&gt;id121[Active Sensor];
+      id12--&gt;id122[Passive Sensor];
+    id1--&gt;id13[Electromagnetic Spectrum];
+      id13--&gt;id131[Spectral Bands];
+        id131--&gt;id1311[Multispectral];
+        id131--&gt;id1312[Hyperspectral];
+    id1--&gt;id14[Image Classification];
+      id14--&gt;id141[Supervised Classification];
+      id14--&gt;id142[Unsupervised Classification];
+      id14--&gt;id143[Object-based Image Analysis];
+    id1--&gt;id15[Applications and Uses];
+      id15--&gt;id151[Agriculture];
+      id15--&gt;id152[Climate Change];
+      id15--&gt;id153[Business];
+      id15--&gt;id154[Disasters];
+      id15--&gt;id155[Environment];
+      id15--&gt;id156[Weather];
+      id15--&gt;id157[Urban];
+</pre>
+<div id="mermaid-tooltip-1" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
 <section id="what-is-remote-sensing" class="level3" data-number="1.1.1">
 <h3 data-number="1.1.1" class="anchored" data-anchor-id="what-is-remote-sensing"><span class="header-section-number">1.1.1</span> What is Remote Sensing?</h3>
 <p>Remote sensing data is digital images and digital images are made of pixels, and pixels are representations of numeric values.</p>
@@ -267,8 +315,40 @@ div.csl-indent {
 <p>in each spectral/spectrum, the image will be white if it reflects the spactrum</p>
 <p>255 spectrum of each RGB</p>
 <p><strong>Observing the surface of the earth</strong></p>
-<p>Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc <span class="citation" data-cites="knuth84">(<a href="week2.html#ref-knuth84" role="doc-biblioref">Knuth, 1984</a>)</span>.</p>
+<p>Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc <span class="citation" data-cites="knuth84">(<a href="references.html#ref-knuth84" role="doc-biblioref">Knuth, 1984</a>)</span>.</p>
 <p><strong>Classifying the pixels through the wavelength</strong></p>
+<p><strong>Sensor Types</strong></p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: left;">UAVs and Drones</th>
+<th style="text-align: left;">Airplanes and Helicopters</th>
+<th style="text-align: left;">Low Earth Orbit Satellites</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Advantages</td>
+<td style="text-align: left;">- Very high resolution imagery<br>- Programmable flight paths<br>- LIDAR capabilities</td>
+<td style="text-align: left;">- Very high resolution imagery<br>- Programmable flight paths<br>- LIDAR capabilities</td>
+<td style="text-align: left;">- Very high resolution imagery<br>- Programmable flight paths<br>- LIDAR capabilities</td>
+</tr>
+<tr class="even">
+<td>Disadvantages</td>
+<td style="text-align: left;">- Very high resolution imagery<br>- Programmable flight paths<br>- LIDAR capabilities</td>
+<td style="text-align: left;">- Very high resolution imagery<br>- Programmable flight paths<br>- LIDAR capabilities</td>
+<td style="text-align: left;">- Very high resolution imagery<br>- Programmable flight paths<br>- LIDAR capabilities</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Active and Passive Sensors in Remote Sensing</strong></p>
 </section>
 </section>
 <section id="applications" class="level2" data-number="1.2">

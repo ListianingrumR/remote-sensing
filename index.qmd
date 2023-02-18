@@ -19,11 +19,10 @@ This website contains weekly learning material with structures below:
 1.  Summary
 2.  Applications
 3.  Reflection
-4.  Conclusion
 
 ## About me {.unnumbered}
 
-My name is Rahmadita Listianingrum. I am an international student from Indonesia studying at MSc Urban Spatial Science, University College London.
+My name is Rahmadita Listianingrum. I am an international student from Indonesia studying at MSc Urban Spatial Science, University College London. I am a former Mine Planning Engineer and graduated from Geodesy and Geomatics Engineering, Institut Teknologi Bandung. My current interest lies in data analysis and visualisation.
 
 ## How to use this book
 
