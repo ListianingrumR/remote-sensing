@@ -3,6 +3,43 @@
 ## Summary
 
 ```{mermaid}
+flowchart TD;
+    id1[Remote Sensing]-->id11[Sensors];
+      id11-->id111[Types of Sensors];
+        id111-->id1111[UAVs and Drones];
+        id111-->id1112[Airplane and Helicopters];
+        id111-->id1113[Low Earth Orbit Satellites];
+      id11-->id112[Types of Resolutions];
+        id112-->id1121[Spatial Resolution];
+        id112-->id1122[Spectral Resolution];
+        id112-->id1123[Temporal Resolution];
+        id112-->id1124[Radiometric]
+      id11-->id115[Types of Orbits];
+        id115-->id1151[Geostationary];
+        id115-->id1152[Sun-synchronous];
+        id115-->id1153[Polar];
+    id1-->id12[Types of Remote Sensing];
+      id12-->id121[Active Sensor];
+      id12-->id122[Passive Sensor];
+    id1-->id13[Electromagnetic Spectrum];
+      id13-->id131[Spectral Bands];
+        id131-->id1311[Multispectral];
+        id131-->id1312[Hyperspectral];
+    id1-->id14[Image Classification];
+      id14-->id141[Supervised Classification];
+      id14-->id142[Unsupervised Classification];
+      id14-->id143[Object-based Image Analysis];
+    id1-->id15[Applications and Uses];
+      id15-->id151[Agriculture];
+      id15-->id152[Climate Change];
+      id15-->id153[Business];
+      id15-->id154[Disasters];
+      id15-->id155[Environment];
+      id15-->id156[Weather];
+      id15-->id157[Urban];
+```
+
+```{mermaid}
 flowchart LR;
     id1[Remote Sensing]-->id11[Sensors];
       id11-->id111[Types of Sensors];
