@@ -95,7 +95,7 @@
     "href": "week1.html#reflection",
     "title": "1  Introduction to Remote Sensing",
     "section": "1.3 Reflection",
-    "text": "1.3 Reflection\n\n\n\n\nKnuth, D. E. (1984) “Literate programming,” Comput. J., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
+    "text": "1.3 Reflection\nI learned remote sensing in my undergraduate study almost 10 years ago and I realised there are so much changes happened. This module is like a refreshment and updated version of knowledge and technology that I learned in the past.\nThe advancement of the resolutions blows my mind. I used to work on Landsat 7’ image with 15-60m resolution, 7+1 bands, and 16 days temporal resolution. Mostly I used satellite images at my work in coal mining company for topographic map and DEM(Digital Elevation Model) to calculate the overburden removal and coal extraction volume.\nWith the newest technology, the improvement of remote sensing satellite such as Sentinel with better resolutions and Google Earth Engine makes different and broaden the type of analysis that we can do such as object-based image detection with better and faster result.\n\n\n\n\nKnuth, D. E. (1984) “Literate programming,” Comput. J., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "week1.html#conclusion",
@@ -144,7 +144,7 @@
     "href": "week2.html#summary",
     "title": "\n2  Portfolio Tools\n",
     "section": "\n2.1 Summary",
-    "text": "2.1 Summary\n\n2.1.1 Quarto\n\n2.1.2 Xaringan"
+    "text": "2.1 Summary"
   },
   {
     "objectID": "week2.html#applications",
@@ -158,7 +158,7 @@
     "href": "week2.html#reflection",
     "title": "\n2  Portfolio Tools\n",
     "section": "\n2.3 Reflection",
-    "text": "2.3 Reflection"
+    "text": "2.3 Reflection\nI just knew the term “literate programming” after I entered CASA and I really enjoy it! In CASA0005 Geographic Information Systems and Science, I learned about Rmarkdown and I am getting used to take notes with markdown format with Obsidian. Quarto makes it even more convenient because it is integrated to several platforms such as RStudio and VSCode (I use both of these). Xaringan is on another level, it can generate Rmarkdown into slides! I just wanna say thank you to Andy, our lecturer, to encourage us to learn about this and makes us able to publish our work/portfolio. Such a useful lesson!"
   },
   {
     "objectID": "week2.html#conclusion",

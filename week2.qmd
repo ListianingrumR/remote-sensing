@@ -5,8 +5,7 @@ library(fontawesome)
 ```
 
 ## Summary
-### Quarto
-### Xaringan
+
 
 ## Applications
 ### Portfolio tool application: xaringan
@@ -16,3 +15,5 @@ library(fontawesome)
 | Sentinel - The Remote Sensing Sensor | [`r fa("person-chalkboard")`](https://listianingrumr.github.io/sensor) |
 
 ## Reflection
+
+I just knew the term "literate programming" after I entered CASA and I really enjoy it! In CASA0005 Geographic Information Systems and Science, I learned about [Rmarkdown](https://rmarkdown.rstudio.com) and I am getting used to take notes with markdown format with [Obsidian](https://obsidian.md). [Quarto](https://quarto.org) makes it even more convenient because it is integrated to several platforms such as RStudio and VSCode (I use both of these). [Xaringan](https://github.com/yihui/xaringan) is on another level, it can generate Rmarkdown into slides! I just wanna say thank you to [Andy](https://andrewmaclachlan.rbind.io), our lecturer, to encourage us to learn about this and makes us able to publish our work/portfolio. Such a useful lesson!
