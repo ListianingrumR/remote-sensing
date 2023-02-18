@@ -13,6 +13,7 @@ flowchart LR;
         id112-->id1121[Spatial Resolution];
         id112-->id1122[Spectral Resolution];
         id112-->id1123[Temporal Resolution];
+        id112-->id1124[Radiometric]
       id11-->id115[Types of Orbits];
         id115-->id1151[Geostationary];
         id115-->id1152[Sun-synchronous];
@@ -66,14 +67,20 @@ Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, pa
 
 **Classifying the pixels through the wavelength**
 
-**Sensor Types**
+### Sensors
 
 |               | UAVs and Drones                                                                          | Airplanes and Helicopters                                                                | Low Earth Orbit Satellites                                                               |
 |------------------|:-----------------|:-----------------|:-----------------|
 | Advantages    | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
 | Disadvantages | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
 
-**Active and Passive Sensors in Remote Sensing**
+### Types of Remote Sensing
+
+![Passive and Active Sensors [Source: NASA public domain in Balamis](https://www.balamis.com/technology/)](https://www.balamis.com/wp-content/uploads/2018/10/passive_active_anim.gif)
+
+### Electromagnetic Spectrum
+
+### Image Classification
 
 ## Applications
 
