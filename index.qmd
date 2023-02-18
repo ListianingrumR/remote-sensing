@@ -1,6 +1,8 @@
 
 *Last updated: `r Sys.Date()`*
 
+![Animated earth gif by  [Vyacheslav Alkin](https://dribbble.com/shots/1697702-Earth-Gif/attachments/8937978?mode=media)](https://cdn.dribbble.com/users/324419/screenshots/1697702/media/354bfc3424f2c61ae837bf03ad4bc821.gif)
+
 ## Preface {.unnumbered}
 
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
