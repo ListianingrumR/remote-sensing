@@ -37,11 +37,24 @@ flowchart LR;
       id15-->id155[Urban];
 ```
 
-### What is Remote Sensing?
+### ![](img/what-is-rs)
 
 Remote sensing data is digital images and digital images are made of pixels, and pixels are representations of numeric values.
 
 Those values represent the amount of reflected electromagnetic energy (which is everywhere, and everything reflects or absorbs it differently, and measurably). The sunlight is hitting the earth and the earth reflects the light and satellites capture it.
+
+### ![](img/sensors)
+
+|               | UAVs and Drones                                                                          | Airplanes and Helicopters                                                                | Low Earth Orbit Satellites                                                               |
+|------------------|:-----------------|:-----------------|:-----------------|
+| Advantages    | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
+| Disadvantages | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
+
+### ![](img/type-of-rs)
+
+![Passive and Active Sensors [Source: NASA public domain in Balamis](https://www.balamis.com/technology/)](https://www.balamis.com/wp-content/uploads/2018/10/passive_active_anim.gif)
+
+### ![](img/em-spectrum)
 
 Electromagnetic energy has waves, have wavelength
 
@@ -65,23 +78,10 @@ Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, pa
 
 **Classifying the pixels through the wavelength**
 
-### Sensors
-
-|               | UAVs and Drones                                                                          | Airplanes and Helicopters                                                                | Low Earth Orbit Satellites                                                               |
-|------------------|:-----------------|:-----------------|:-----------------|
-| Advantages    | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
-| Disadvantages | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
-
-### Types of Remote Sensing
-
-![Passive and Active Sensors [Source: NASA public domain in Balamis](https://www.balamis.com/technology/)](https://www.balamis.com/wp-content/uploads/2018/10/passive_active_anim.gif)
-
-### Electromagnetic Spectrum
-
-### Image Classification
+### ![](img/img-class)
 
 ## Applications
 
-
+![](img/apps-uses)
 
 ## Reflection
