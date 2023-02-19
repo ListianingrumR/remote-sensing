@@ -179,7 +179,7 @@
     "href": "week3.html#summary",
     "title": "3  Remote Sensing Data",
     "section": "3.1 Summary",
-    "text": "3.1 Summary"
+    "text": "3.1 Summary\n\nReferences\nPennsylvania State University - GIS\n\n\nVirginia Norwood\nThe woman behind multispectral band on satellite image/ERTS project (bringing visible RGB and invisible infrared, panc, etc) since 1972>> Landsat\n\n\nRBV vs MSS\nRBV: Return Beam Vidicon (TV-like cameras) >> system was analog MSS: Multi-Spectral Scanner \n\n\nPush broom vs Whisk broom\nPush broom: spotlight/across track scanners Whisk broom: along track scanners"
   },
   {
     "objectID": "week3.html#applications",
@@ -214,7 +214,7 @@
     "href": "week4.html#summary",
     "title": "4  Policy Application",
     "section": "4.1 Summary",
-    "text": "4.1 Summary\n\n4.1.1 Study Case\nAs the sea level rise and groundwater extraction increasing, the future of coastal cities are in danger.\nLet’s take a look in Jakarta Metropolitan City, the capital city of Indonesia. Quick facts about Jakarta:\n\nPopulation:\nArea:\nWater catchment area:\nGeographical situation:\nRisk:\n\nReference: Estimation, modeling, and prediction of land subsidence using Sentinel-1 time series in Tehran-Shahriar plain: A machine learning-based investigation\nRelated issues\n\nClean water\n\nRelated global initiative\nSDGs\n\n\n4.1.2 Data\n\nInSAR Sentinel-1\nIn this study, a total number of 193 Sentinel-1A images acquired between October 8, 2014 and March 28, 2019 were used.\nAdditionally, we used the Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) for preliminary geocoding and removing the topographic phase component.\n\n\n\n4.1.3 Methods\n\nIn the former category, water flow and soil mechanics have been modeled through simulating the process of LS in aquifer systems according to groundwater abstraction and geological, geotechnical and hydrogeological conditions (Fernandez et al., 2018; Bajni et al., 2019; Zhu et al., 2020). In such methods, it is necessary to access accurate hydrogeological data and adopt various assumptions (Ilia et al., 2018).\nSeveral studies have applied Persistent Scatterer Interferometry (PSI) techniques and statistical-empirical methods such as back propagation neural networks (BPNs) (Dehghani et al., 2013), long short-term memory (LSTM) (Li et al., 2020), geographically weighted LSTM (GW-LSTM) (Li et al., 2021), Random forest (RF) (Ilia et al., 2018), analytical hierarchy process coupled with sensitivity analysis (AHP-SA) (Zhu et al., 2013), and GIS based spatial analysis (Zhu et al., 2015) to model and predict LS.\nThe geological and hydrological parameters considered for LS modeling using the ML methods include groundwater level change, aquifer media, precipitation rate, slope, land use, depth to water table, distance from exploiting wells, distance from rivers, and distance from faults.\nAll these layers were converted to raster, and their values were extracted to PS points detected by PS-InSAR analysis as sample points. The effects of these parameters on LS were investigated and the most important parameters were determined.\nIn this paper, we applied the PS-InSAR technique proposed by Ferretti et al. (2001) to monitor LS at millimeter precision (Perissin, 2016) over the study period. This technique is based on detection of points (or targets) called the permanent scatterers (PS) that remain unchanged over the entire period. For PS-InSAR analysis, single look complex (SLC) images of the same area were co-registered to a single master configuration preferably selected from the middle of the spatial and temporal baseline spaces (Hanssen, 2001). Interferograms were then generated from multi-temporal SAR images. Finally, the orbital data and the external SRTM DEM were used to remove the Earth curvature influence and the topographic component of the interferometric phase, respectively.\n\nIn conclusion, this study combine: PS-InSAR (mm precision), ANN, and RF to model the\n\n\n4.1.4 Solutions\nCurrent policy\nMari Simak Peraturan Larangan Penggunaan Air Tanah di DKI Jakarta\nGroundwater, key to the Sustainable Development Goals (SDGs)\nSDGs goal 6: Clean water and sanitation\n\nIndonesian government set the restriction of groundwater extraction by different fees, will it work?\n\n\n\n\n4.1.5 Limitations and Future\n\nTo validate the estimated LS measurements, it is necessary that the vertical displacement is compared with the GPS measurements.\nAccuracy\nFuture: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)"
+    "text": "4.1 Summary\n\nStudy Case\nAs the sea level rise and groundwater extraction increasing, the future of coastal cities are in danger.\nLet’s take a look in Jakarta Metropolitan City, the capital city of Indonesia. Quick facts about Jakarta:\n\nPopulation:\nArea:\nWater catchment area:\nGeographical situation:\nRisk:\n\nReference: Estimation, modeling, and prediction of land subsidence using Sentinel-1 time series in Tehran-Shahriar plain: A machine learning-based investigation\nRelated issues\n\nClean water\n\nRelated global initiative\nSDGs\n\n\nData\n\nInSAR Sentinel-1\nIn this study, a total number of 193 Sentinel-1A images acquired between October 8, 2014 and March 28, 2019 were used.\nAdditionally, we used the Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) for preliminary geocoding and removing the topographic phase component.\n\n\n\nMethods\n\nIn the former category, water flow and soil mechanics have been modeled through simulating the process of LS in aquifer systems according to groundwater abstraction and geological, geotechnical and hydrogeological conditions (Fernandez et al., 2018; Bajni et al., 2019; Zhu et al., 2020). In such methods, it is necessary to access accurate hydrogeological data and adopt various assumptions (Ilia et al., 2018).\nSeveral studies have applied Persistent Scatterer Interferometry (PSI) techniques and statistical-empirical methods such as back propagation neural networks (BPNs) (Dehghani et al., 2013), long short-term memory (LSTM) (Li et al., 2020), geographically weighted LSTM (GW-LSTM) (Li et al., 2021), Random forest (RF) (Ilia et al., 2018), analytical hierarchy process coupled with sensitivity analysis (AHP-SA) (Zhu et al., 2013), and GIS based spatial analysis (Zhu et al., 2015) to model and predict LS.\nThe geological and hydrological parameters considered for LS modeling using the ML methods include groundwater level change, aquifer media, precipitation rate, slope, land use, depth to water table, distance from exploiting wells, distance from rivers, and distance from faults.\nAll these layers were converted to raster, and their values were extracted to PS points detected by PS-InSAR analysis as sample points. The effects of these parameters on LS were investigated and the most important parameters were determined.\nIn this paper, we applied the PS-InSAR technique proposed by Ferretti et al. (2001) to monitor LS at millimeter precision (Perissin, 2016) over the study period. This technique is based on detection of points (or targets) called the permanent scatterers (PS) that remain unchanged over the entire period. For PS-InSAR analysis, single look complex (SLC) images of the same area were co-registered to a single master configuration preferably selected from the middle of the spatial and temporal baseline spaces (Hanssen, 2001). Interferograms were then generated from multi-temporal SAR images. Finally, the orbital data and the external SRTM DEM were used to remove the Earth curvature influence and the topographic component of the interferometric phase, respectively.\n\nIn conclusion, this study combine: PS-InSAR (mm precision), ANN, and RF to model the\n\n\nSolutions\nCurrent policy\nMari Simak Peraturan Larangan Penggunaan Air Tanah di DKI Jakarta\nGroundwater, key to the Sustainable Development Goals (SDGs)\nSDGs goal 6: Clean water and sanitation\n\nIndonesian government set the restriction of groundwater extraction by different fees, will it work?\n\n\n\n\nLimitations and Future\n\nTo validate the estimated LS measurements, it is necessary that the vertical displacement is compared with the GPS measurements.\nAccuracy\nFuture: NISAR (NASA-ISRO SAR EO satellite launch in 2024) with 2 bands (L-band and S-band)"
   },
   {
     "objectID": "week4.html#methods",
@@ -235,7 +235,7 @@
     "href": "week4.html#applications",
     "title": "4  Policy Application",
     "section": "4.2 Applications",
-    "text": "4.2 Applications\n\n4.2.1 Steps\n\nIdentify policy, is it right? (e.g. coolroof/painting white, indonesian resrtiction of groundwater extraction by fare)\n\n\n\n\n4.2.2 Group presentation\n\nFunding: 4000 Pound\nIdentify Problem\nProject plan\nApproach/Methods\nRisk\nValue for money\n10 mins pitch/bidding\n\nFocus and constrain: 1. Feasibility study 2. Work flow 3. 4000 pound, 2-3 GIS analyst in the government 4. Project management"
+    "text": "4.2 Applications\n\nSteps\n\nIdentify policy, is it right? (e.g. coolroof/painting white, indonesian resrtiction of groundwater extraction by fare)\n\n\n\n\nGroup presentation\n\nFunding: 4000 Pound\nIdentify Problem\nProject plan\nApproach/Methods\nRisk\nValue for money\n10 mins pitch/bidding\n\nFocus and constrain: 1. Feasibility study 2. Work flow 3. 4000 pound, 2-3 GIS analyst in the government 4. Project management"
   },
   {
     "objectID": "week4.html#reflection",
@@ -292,5 +292,138 @@
     "title": "5  Introduction to GEE (Google Earth Engine)",
     "section": "References",
     "text": "References\n\n\nKnuth, D. E. (1984) “Literate programming,” Comput. J., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "week3.html",
+    "href": "week3.html",
+    "title": "3  Remote Sensing Data",
+    "section": "",
+    "text": "4 Corrections\nMAKE AN RS DICTIONARY (zenith, azimuth)\nLandsat Data Access\nLandsat USGS > comes with collections: Landsat Collections ensure that all Landsat Level-1 products contain known data quality. Source  Level means specific product (temp, humidity, etc)\nExample: Landsat 8-9 Operational Land Imager (OLI) and Thermal Infrared (TIRS) Collection 2 Level-2 Science Products 30-meter multispectral data. Source"
+  },
+  {
+    "objectID": "week3.html#geometric-correction-parallax-remember-photogrammetry",
+    "href": "week3.html#geometric-correction-parallax-remember-photogrammetry",
+    "title": "3  Remote Sensing Data",
+    "section": "4.1 Geometric correction (parallax! remember photogrammetry)",
+    "text": "4.1 Geometric correction (parallax! remember photogrammetry)\n\nview angle\ntopography\nwind\nrotation of the earth\n\nGeometric correction on satellite vs airplane?\nHow to deal with? GCP: Ground Control Point linear regression: parallax - RMSE >> adding more GCPs can - Resample methods if the grid cells not align!: - Nearest neighbor - linear - cubic - cubic spline"
+  },
+  {
+    "objectID": "week3.html#atmospheric-correction",
+    "href": "week3.html#atmospheric-correction",
+    "title": "3  Remote Sensing Data",
+    "section": "4.2 Atmospheric correction",
+    "text": "4.2 Atmospheric correction\nNot necessary if you only have one single image or not a time-series tiles Necessary: have time elements (want to see the same spot in various times/time-series)\nAtmosphere will absorb/scatter the sunlight and create haze! Now there are: surface reflectance Analysis Ready Data (ARD)\n\n! bright object/really reflective object can cause to adjacency effect (one pixel influence others)\n\nHow to deal with? - Absolute (basically it is making a model of atmosphere) - FLAASH - Py6S (Python Second Simulation of the Satellite Signal in the Solar Spectrum) - need a lot of data/atmosphere element from station (e.g. ) - Relative: - DOS (Dark Object Subtraction) - PIFs (Psuedo-Invariant Features) determine feature that don’t change, make regression model per band:\nEmpirical line correction - using field spectometer\nIrradiance vs radiance"
+  },
+  {
+    "objectID": "week3.html#orthorectification-correction-topographic-correction",
+    "href": "week3.html#orthorectification-correction-topographic-correction",
+    "title": "3  Remote Sensing Data",
+    "section": "4.3 Orthorectification correction / topographic correction",
+    "text": "4.3 Orthorectification correction / topographic correction\n\ncosine correction\nmineart correction\nstatistical empirical correction\nc correction (advancing the cosine)\n\ncosine correctional"
+  },
+  {
+    "objectID": "week3.html#radiometric-calibration",
+    "href": "week3.html#radiometric-calibration",
+    "title": "3  Remote Sensing Data",
+    "section": "4.4 Radiometric calibration",
+    "text": "4.4 Radiometric calibration\nSensors capture image brightness and are distributed as a Digital Number (or DN) - allows for efficient storage but has no units!\nDN to spectral radiance = radiometric calibration Radiometric calibration: Correct DN to spectral radiance"
+  },
+  {
+    "objectID": "week3.html#mosaicking",
+    "href": "week3.html#mosaicking",
+    "title": "3  Remote Sensing Data",
+    "section": "5.1 Mosaicking",
+    "text": "5.1 Mosaicking"
+  },
+  {
+    "objectID": "week3.html#image-enhancement",
+    "href": "week3.html#image-enhancement",
+    "title": "3  Remote Sensing Data",
+    "section": "5.2 Image enhancement",
+    "text": "5.2 Image enhancement\n\nimage stretch\nratio\nfusion: multi-temporal images or images from different satellites pan sharpening (use grey band/panchromatic to sharpen the rgb band)\nGEOBIA (Object-Based Image Analysis)"
+  },
+  {
+    "objectID": "week3.html#corrections",
+    "href": "week3.html#corrections",
+    "title": "3  Remote Sensing Data",
+    "section": "Corrections",
+    "text": "Corrections\n\nscan lines\n\n\nGeometric correction (parallax! remember photogrammetry)\n\nview angle\ntopography\nwind\nrotation of the earth\n\nGeometric correction on satellite vs airplane?\nHow to deal with? GCP: Ground Control Point linear regression: parallax - RMSE >> adding more GCPs can - Resample methods if the grid cells not align!: - Nearest neighbor - linear - cubic - cubic spline\n\n\nAtmospheric correction\nNot necessary if you only have one single image or not a time-series tiles Necessary: have time elements (want to see the same spot in various times/time-series)\nAtmosphere will absorb/scatter the sunlight and create haze! Now there are: surface reflectance Analysis Ready Data (ARD)\n\n! bright object/really reflective object can cause to adjacency effect (one pixel influence others)\n\nHow to deal with? - Absolute (basically it is making a model of atmosphere) - FLAASH - Py6S (Python Second Simulation of the Satellite Signal in the Solar Spectrum) - need a lot of data/atmosphere element from station (e.g. ) - Relative: - DOS (Dark Object Subtraction) - PIFs (Psuedo-Invariant Features) determine feature that don’t change, make regression model per band:\nEmpirical line correction - using field spectometer\nIrradiance vs radiance\n\n\nOrthorectification correction / topographic correction\n\ncosine correction\nmineart correction\nstatistical empirical correction\nc correction (advancing the cosine)\n\ncosine correctional \n\n\n\nRadiometric calibration\nSensors capture image brightness and are distributed as a Digital Number (or DN) - allows for efficient storage but has no units!\nDN to spectral radiance = radiometric calibration Radiometric calibration: Correct DN to spectral radiance"
+  },
+  {
+    "objectID": "week3.html#data-joining-and-enhancement",
+    "href": "week3.html#data-joining-and-enhancement",
+    "title": "3  Remote Sensing Data",
+    "section": "Data joining and enhancement",
+    "text": "Data joining and enhancement\n\nMosaicking\n\n\nImage enhancement\n\nimage stretch\nratio\nfusion: multi-temporal images or images from different satellites pan sharpening (use grey band/panchromatic to sharpen the rgb band)\nGEOBIA (Object-Based Image Analysis)"
+  },
+  {
+    "objectID": "week3.html#summary-1",
+    "href": "week3.html#summary-1",
+    "title": "3  Remote Sensing Data",
+    "section": "Summary",
+    "text": "Summary\n\nPart 1: corrections\n\nImagery may contain error from a variety of sources\nWe must correct where appropriate \nWe must contextualise the use of the imagery \n\n\n\nPart 2: data joining and enhancement\n\nMosaicing in with a standard method isn’t appropriate for satellite imagery \nImagery can be “improved/enhanced” based on the energy reflected and the contrast between features \nBut…\n\nHow do these methods help in urban environments\nDoes adding complexity to imagery (or creating new datasets) assist us in our aim?\n\n\n\n\nTask\nMAKE AN RS DICTIONARY (zenith, azimuth)"
+  },
+  {
+    "objectID": "week3.html#practical3",
+    "href": "week3.html#practical3",
+    "title": "3  Remote Sensing Data",
+    "section": "Practical3",
+    "text": "Practical3\nLandsat Data Access\nLandsat USGS > comes with collections: Landsat Collections ensure that all Landsat Level-1 products contain known data quality. Source  Level means specific product (temp, humidity, etc)\nExample: Landsat 8-9 Operational Land Imager (OLI) and Thermal Infrared (TIRS) Collection 2 Level-2 Science Products 30-meter multispectral data. Source"
+  },
+  {
+    "objectID": "week4.html#personal-reflection",
+    "href": "week4.html#personal-reflection",
+    "title": "4  Policy Application",
+    "section": "4.3 Personal Reflection",
+    "text": "4.3 Personal Reflection"
+  },
+  {
+    "objectID": "week3.html#personal-reflection",
+    "href": "week3.html#personal-reflection",
+    "title": "3  Remote Sensing Data",
+    "section": "3.3 Personal Reflection",
+    "text": "3.3 Personal Reflection"
+  },
+  {
+    "objectID": "week2.html#personal-reflection",
+    "href": "week2.html#personal-reflection",
+    "title": "\n2  Portfolio Tools\n",
+    "section": "\n2.3 Personal Reflection",
+    "text": "2.3 Personal Reflection\nI just knew the term “literate programming” after I entered CASA and I really enjoy it! In CASA0005 Geographic Information Systems and Science, I learned about Rmarkdown and I am getting used to take notes with markdown format with Obsidian. Quarto makes it even more convenient because it is integrated to several platforms such as RStudio and VSCode (I use both of these). Xaringan is on another level, it can generate Rmarkdown into slides! I just wanna say thank you to Andy, our lecturer, to encourage us to learn about this and makes us able to publish our work/portfolio. Such a useful lesson!"
+  },
+  {
+    "objectID": "week1.html#personal-reflection",
+    "href": "week1.html#personal-reflection",
+    "title": "1  Introduction to Remote Sensing",
+    "section": "1.3 Personal Reflection",
+    "text": "1.3 Personal Reflection\nI learned remote sensing in my undergraduate study almost 10 years ago and I realised there are so much changes happened. This module is like a refreshment and updated version of knowledge and technology that I learned in the past.\nThe advancement of the resolutions blows my mind. I used to work on Landsat 7’ image with 15-60m resolution, 7+1 bands, and 16 days temporal resolution. Mostly I used satellite images at my work in coal mining company for topographic map and DEM(Digital Elevation Model) to calculate the overburden removal and coal extraction volume.\nWith the newest technology, the improvement of remote sensing satellite such as Sentinel with better resolutions and Google Earth Engine makes different and broaden the type of analysis that we can do such as object-based image detection with better and faster result.\n\n\n\n\nKnuth, D. E. (1984) “Literate programming,” Comput. J., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "week5.html#personal-reflection",
+    "href": "week5.html#personal-reflection",
+    "title": "5  Introduction to GEE (Google Earth Engine)",
+    "section": "5.3 Personal Reflection",
+    "text": "5.3 Personal Reflection\n\n\n\n\nKnuth, D. E. (1984) “Literate programming,” Comput. J., 27(2), pp. 97–111. doi: 10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "ms.html",
+    "href": "ms.html",
+    "title": "6  Assessment",
+    "section": "",
+    "text": "Assessment1\nGroup code\nYou should not just restate what has been presented in the lectures\nMermaid mindmap (error live demo version)"
+  },
+  {
+    "objectID": "ms.html#marking-scheme",
+    "href": "ms.html#marking-scheme",
+    "title": "6  Assessment",
+    "section": "Marking scheme",
+    "text": "Marking scheme\n\n1. Problem definition\nThe research problem is globally or highly pertinent or topical to a social, environmental, political or other context and has been framed at the optimal spatial scale. There is extensive background research evaluating multiple forms of credible sources to produce a compelling and coherent framing of the research question, presented in a concise and informative manner.\n\n\n2. Approach\nSelected data and presented analytical methodology are able to perfectly solve the presented research question or the limitations are evidently understood and expertly expressed. The analysis is entirely appropriate to the problem. It demonstrates creativity, a comprehensive understanding of appropriate sophisticated techniques, exemplary technical proficiency and skills which are indicative of significant additional independent learning.\n\n\n3. Project plan, risks and value for money\nThe project presents an exemplary plan. It is robust, logical, appropriate, and well informed, containing no ambiguity. It is evident how the deliverables will be useful to the city and could be incorporated into business as usual operations, this may include future areas of work or city challenges. All likely risks to the project have been identified and appropriate mitigative actions devised. Value for money in all aspects of the project is achieved, whilst producing tangible and actionable outputs."
+  },
+  {
+    "objectID": "ms.html#marking-scheme-1",
+    "href": "ms.html#marking-scheme-1",
+    "title": "6  Assessment",
+    "section": "Marking scheme",
+    "text": "Marking scheme\n\n1. Content summary\nA well-defined summary / introduction that expertly demonstrates clear, unambiguous and extensive comprehension of the data, methods and tools/policies*, their benefits, limitations and possible future developments.\n*policies where appropriate\n\n\n2. Applications of the content\nDiscussed applications of the taught content are systematic, extensive and evaluate several credible sources using an in- depth and thorough narrative. It seamlessly guides the reader through both how and why the methods / data/ tools have been applied whilst providing exemplary critical reflection on the approaches with reference to future literature advancements.\n\n\n3. Personal reflection\nAn in depth and extensive personal reflection that demonstrates why the content may (or may not) be interesting, and presents an inquisitive dialogue to a wider application of the content. The skills, content, data and tools and placed within the broader discipline and it is evident how they could be used in future or may (or may not) lead to other avenues of analysis / work that could involve different datasets."
   }
 ]

@@ -2,6 +2,127 @@
 
 ## Summary
 
+### References {.unnumbered}
+[Pennsylvania State University - GIS](https://www.e-education.psu.edu/natureofgeoinfo/c6_p15.html)
+
+### Virginia Norwood {.unnumbered}
+
+The woman behind multispectral band on satellite image/ERTS project (bringing visible RGB and invisible infrared, panc, etc)
+since 1972>> Landsat
+
+### RBV vs MSS {.unnumbered}
+
+RBV: Return Beam Vidicon (TV-like cameras) >> system was analog
+MSS: Multi-Spectral Scanner![](img/Screen Shot 2023-01-24 at 13.22.33.png)
+![](img/Screen Shot 2023-01-24 at 13.22.11.png)
+
+### Push broom vs Whisk broom {.unnumbered}
+
+Push broom: spotlight/across track scanners
+Whisk broom: along track scanners
+
+## Corrections {.unnumbered}
+- scan lines
+
+### Geometric correction (parallax! remember photogrammetry) {.unnumbered}
+- view angle
+- topography
+- wind
+- rotation of the earth
+
+Geometric correction on satellite vs airplane?
+
+How to deal with?
+GCP: Ground Control Point
+linear regression: parallax
+- RMSE >> adding more GCPs can 
+- Resample methods if the grid cells not align!:
+	- Nearest neighbor
+	- linear
+	- cubic
+	- cubic spline
+
+### Atmospheric correction {.unnumbered}
+Not necessary if you only have one single image or not a time-series tiles
+Necessary: have time elements (want to see the same spot in various times/time-series)
+
+Atmosphere will absorb/scatter the sunlight and create haze!
+Now there are: surface reflectance Analysis Ready Data (ARD)
+
+> ! bright object/really reflective object can cause to *adjacency effect* (one pixel influence others)
+
+How to deal with?
+- Absolute (basically it is making a model of atmosphere)
+	- FLAASH
+	- Py6S (Python Second Simulation of the Satellite Signal in the Solar Spectrum)
+	- need a lot of data/atmosphere element from station (e.g. )
+- Relative:
+	- DOS (Dark Object Subtraction)
+	- PIFs (Psuedo-Invariant Features)
+		determine feature that don't change, make regression model per band:
+
+Empirical line correction
+- using field spectometer
+
+Irradiance vs radiance
+
+### Orthorectification correction / topographic correction {.unnumbered}
+- cosine correction
+- mineart correction
+- statistical empirical correction
+- c correction (advancing the cosine)
+
+**cosine correctional **
+
+![](img/Screen Shot 2023-01-24 at 13.46.16.png)
+
+### Radiometric calibration {.unnumbered}
+Sensors capture image brightness and are distributed as a Digital Number (or DN) - allows for efficient storage but **has no units!**
+
+DN to **spectral radiance** = radiometric calibration
+Radiometric calibration: Correct DN to spectral radiance
+
+## Data joining and enhancement {.unnumbered}
+
+### Mosaicking {.unnumbered}
+
+### Image enhancement {.unnumbered}
+- image stretch
+- ratio
+- fusion: multi-temporal images or images from different satellites
+	pan sharpening (use grey band/panchromatic to sharpen the rgb band)
+- GEOBIA (Object-Based Image Analysis) [](https://gisgeography.com/obia-object-based-image-analysis-geobia/)
+
+## Summary {.unnumbered}
+
+### Part 1: corrections {.unnumbered}
+
+-   Imagery may contain error from a variety of sources
+-   We must correct where appropriate 
+-   We must contextualise the use of the imagery 
+
+### Part 2: data joining and enhancement {.unnumbered}
+
+-   Mosaicing in with a standard method isn't appropriate for satellite imagery 
+-   Imagery can be "improved/enhanced" based on the energy reflected and the contrast between features 
+-   But...
+    -   How do these methods help **in urban environments**
+    -   Does adding complexity to imagery (or creating new datasets) **assist us** in our aim?
+
+### Task {.unnumbered}
+MAKE AN RS DICTIONARY (zenith, azimuth)
+
+--------
+## Practical3 {.unnumbered}
+[Landsat Data Access](https://www.usgs.gov/landsat-missions/landsat-data-access)
+
+Landsat USGS > comes with collections: Landsat Collections ensure that all Landsat Level-1 products contain known data quality. [Source](https://www.usgs.gov/landsat-missions/landsat-collections)
+![](img/Screen Shot 2023-01-26 at 10.13.51.png)
+Level means specific product (temp, humidity, etc)
+
+Example:
+Landsat 8-9 Operational Land Imager (OLI) and Thermal Infrared (TIRS) Collection 2 Level-2 Science Products 30-meter multispectral data. [Source](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-8-9-olitirs-collection-2-level-2#overview)
+
 ## Applications
 
-## Reflection
+## Personal Reflection

@@ -2,7 +2,7 @@
 
 ## Summary
 
-### Study Case
+### Study Case {.unnumbered}
 
 As the sea level rise and groundwater extraction increasing, the future of coastal cities are in danger.
 
@@ -24,13 +24,13 @@ Reference: [Estimation, modeling, and prediction of land subsidence using Sentin
 
 SDGs
 
-### Data
+### Data {.unnumbered}
 
 -   InSAR Sentinel-1
 -   In this study, a total number of 193 Sentinel-1A images acquired between October 8, 2014 and March 28, 2019 were used.
 -   Additionally, we used the Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) for preliminary geocoding and removing the topographic phase component.
 
-### Methods
+### Methods {.unnumbered}
 
 -   In the former category, water flow and soil mechanics have been modeled through simulating the process of LS in aquifer systems according to groundwater abstraction and geological, geotechnical and hydrogeological conditions (Fernandez et al., 2018; Bajni et al., 2019; Zhu et al., 2020). In such methods, it is necessary to access accurate hydrogeological data and adopt various assumptions (Ilia et al., 2018).
 
@@ -44,7 +44,7 @@ SDGs
 
 In conclusion, this study combine: PS-InSAR (mm precision), ANN, and RF to model the
 
-### Solutions
+### Solutions {.unnumbered}
 
 **Current policy**
 
@@ -58,7 +58,7 @@ SDGs goal 6: Clean water and sanitation
 
 -   
 
-### Limitations and Future
+### Limitations and Future {.unnumbered}
 
 -   To validate the estimated LS measurements, it is necessary that the vertical displacement is compared with the GPS measurements.
 
@@ -68,12 +68,12 @@ SDGs goal 6: Clean water and sanitation
 
 ## Applications
 
-### Steps
+### Steps {.unnumbered}
 
 1.  Identify policy, is it right? (e.g. coolroof/painting white, indonesian resrtiction of groundwater extraction by fare)
 2.  
 
-### Group presentation
+### Group presentation {.unnumbered}
 
 -   Funding: 4000 Pound
 -   Identify Problem
@@ -85,4 +85,4 @@ SDGs goal 6: Clean water and sanitation
 
 Focus and constrain: 1. Feasibility study 2. Work flow 3. 4000 pound, 2-3 GIS analyst in the government 4. Project management
 
-## Conclusion and Reflection
+## Personal Reflection

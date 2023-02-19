@@ -84,7 +84,7 @@ Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, pa
 
 ![](img/apps-uses.PNG)
 
-## Reflection
+## Personal Reflection
 
 I learned remote sensing in my undergraduate study almost 10 years ago and I realised there are so much changes happened. This module is like a refreshment and updated version of knowledge and technology that I learned in the past.
 
