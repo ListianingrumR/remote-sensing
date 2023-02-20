@@ -29,6 +29,12 @@ Quarto is used to create this remote sensing learning diary. I also have created
 |---------------|:--------------|
 | Sentinel - The Remote Sensing Sensor | [`r fa("person-chalkboard")`](https://listianingrumr.github.io/sensor) |
 
+```{r, echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "https://listianingrumr.github.io/sensor",
+  ratio = "16:9")
+```
+
 ## Personal Reflection
 
 I just learned the term "literate programming" after I started studying at CASA, and I love it! I learned about [Rmarkdown](https://rmarkdown.rstudio.com) in CASA0005 Geographic Information Systems and Science, and I'm becoming used to taking notes in markdown style with [Obsidian](https://obsidian.md). [Quarto](https://quarto.org) makes it even easier because it integrates with multiple platforms, including RStudio and VSCode (I use both of these). [Xaringan](https://github.com/yihui/xaringan) takes things to the next level by converting Rmarkdown into presentations! I'd want to thank [Andy](https://andrewmaclachlan.rbind.io), our lecturer, for encouraging us to learn about this and post our work/portfolio. What a valuable lesson!
