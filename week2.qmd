@@ -6,9 +6,15 @@ library(fontawesome)
 
 ## Summary
 
+### Quarto {.unnumbered}
+
+### Xaringan {.unnumbered}
 
 ## Applications
-### Portfolio tool application: xaringan
+
+This remote sensing learning diary is the implementation of Quarto. I also make a slide presentation about one of remote sensing sensors with xaringan package below:
+
+### Portfolio tool application: xaringan {.unnumbered}
 
 | Remote Sensing Sensor Slides | Link |
 |---------------|:--------------|

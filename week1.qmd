@@ -37,24 +37,24 @@ flowchart LR;
       id15-->id155[Urban];
 ```
 
-### ![](img/what-is-rs.PNG)
+### ![](img/what-is-rs.PNG) {.unnumbered}
 
 Remote sensing data is digital images and digital images are made of pixels, and pixels are representations of numeric values.
 
 Those values represent the amount of reflected electromagnetic energy (which is everywhere, and everything reflects or absorbs it differently, and measurably). The sunlight is hitting the earth and the earth reflects the light and satellites capture it.
 
-### ![](img/sensors.PNG)
+### ![](img/sensors.PNG) {.unnumbered}
 
 |               | UAVs and Drones                                                                          | Airplanes and Helicopters                                                                | Low Earth Orbit Satellites                                                               |
 |------------------|:-----------------|:-----------------|:-----------------|
 | Advantages    | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
 | Disadvantages | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
 
-### ![](img/type-of-rs.PNG)
+### ![](img/type-of-rs.PNG) {.unnumbered}
 
 ![Passive and Active Sensors [Source: NASA public domain in Balamis](https://www.balamis.com/technology/)](https://www.balamis.com/wp-content/uploads/2018/10/passive_active_anim.gif)
 
-### ![](img/em-spectrum.PNG)
+### ![](img/em-spectrum.PNG) {.unnumbered}
 
 Electromagnetic energy has waves, have wavelength
 
@@ -78,7 +78,7 @@ Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, pa
 
 **Classifying the pixels through the wavelength**
 
-### ![](img/img-class.PNG)
+### ![](img/img-class.PNG) {.unnumbered}
 
 ## Applications
 
