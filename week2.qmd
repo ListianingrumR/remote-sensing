@@ -13,7 +13,7 @@ library(fontawesome)
 
 ### Xaringan {.unnumbered}
 
-Xaringan is a popular R packages for producing interactive and dynamic presentations. It is built on the renowned JavaScript library reveal.js and offers users a variety of customisation possibilities for creating entertaining and informative presentations.
+Xaringan is a popular R packages for producing interactive and dynamic presentations. It is built on the renowned JavaScript library reveal.js and offers users a variety of customisation possibilities for creating entertaining and informative presentations.
 
 Xaringan allows users to build presentations using the R Markdown syntax, which is a simple and straightforward markdown language that allows users to easily add code, photos, and other material in presentations.
 

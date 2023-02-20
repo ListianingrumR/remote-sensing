@@ -45,10 +45,16 @@ To get the most out of this book spend a few minutes learning how to control it,
 -   `r fa("linkedin")` my linkedin profile
 
 ::: {.callout-note}
+## Acknowledgement
 This book is inspired by and adapted from [Dr Andrew Maclahlan's CASA0023 Book](https://andrewmaclachlan.github.io/CASA0023/)
 :::
 
 ::: {.callout-tip}
-- You can click the "->" button below for the next chapter
+- You can click the "->" button below to go to the next chapter
 - You can select the table of contents at the right hand side
+:::
+
+::: {.callout-warning}
+## Attention
+This book is in progress! I will update regularly `r fa("heart")`
 :::
