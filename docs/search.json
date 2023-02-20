@@ -144,14 +144,14 @@
     "href": "week2.html#summary",
     "title": "\n2  Portfolio Tools\n",
     "section": "\n2.1 Summary",
-    "text": "2.1 Summary\nQuarto\nQuarto official siteBootswatch free bootsrap theme\nXaringan"
+    "text": "2.1 Summary\nQuarto\nQuarto official siteBootswatch free bootsrap theme\nXaringan\nXaringan is a popular R packages for producing interactive and dynamic presentations. It is built on the renowned JavaScript library reveal.js and offers users a variety of customisation possibilities for creating entertaining and informative presentations.\nXaringan allows users to build presentations using the R Markdown syntax, which is a simple and straightforward markdown language that allows users to easily add code, photos, and other material in presentations.\nXaringan presentations can be rendered to HTML, making them easily shared and viewed on the internet. As a result, it is an excellent alternative for developing web presentations such as portfolios, project reports, and instructional resources."
   },
   {
     "objectID": "week2.html#applications",
     "href": "week2.html#applications",
     "title": "\n2  Portfolio Tools\n",
     "section": "\n2.2 Applications",
-    "text": "2.2 Applications\nThis remote sensing learning diary is the implementation of Quarto. I also make a slide presentation about one of remote sensing sensors with xaringan package below:\nPortfolio tool application: xaringan\n\n\nRemote Sensing Sensor Slides\nLink\n\n\nSentinel - The Remote Sensing Sensor"
+    "text": "2.2 Applications\nQuarto is used to create this remote sensing learning diary. I also have created the following slide presentation on one of the remote sensing sensors using the xaringan package:\nPortfolio tool application: xaringan\n\n\nRemote Sensing Sensor Slides\nLink\n\n\nSentinel - The Remote Sensing Sensor"
   },
   {
     "objectID": "week2.html#reflection",
@@ -389,7 +389,7 @@
     "href": "week2.html#personal-reflection",
     "title": "\n2  Portfolio Tools\n",
     "section": "\n2.3 Personal Reflection",
-    "text": "2.3 Personal Reflection\nI just knew the term “literate programming” after I entered CASA and I really enjoy it! In CASA0005 Geographic Information Systems and Science, I learned about Rmarkdown and I am getting used to take notes with markdown format with Obsidian. Quarto makes it even more convenient because it is integrated to several platforms such as RStudio and VSCode (I use both of these). Xaringan is on another level, it can generate Rmarkdown into slides! I just wanna say thank you to Andy, our lecturer, to encourage us to learn about this and makes us able to publish our work/portfolio. Such a useful lesson!"
+    "text": "2.3 Personal Reflection\nI just learned the term “literate programming” after I started studying at CASA, and I love it! I learned about Rmarkdown in CASA0005 Geographic Information Systems and Science, and I’m becoming used to taking notes in markdown style with Obsidian. Quarto makes it even easier because it integrates with multiple platforms, including RStudio and VSCode (I use both of these). Xaringan takes things to the next level by converting Rmarkdown into presentations! I’d want to thank Andy, our lecturer, for encouraging us to learn about this and post our work/portfolio. What a valuable lesson!"
   },
   {
     "objectID": "week1.html#personal-reflection",
