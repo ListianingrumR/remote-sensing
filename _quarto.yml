@@ -45,9 +45,9 @@ csl: harvard-cite-them-right.csl
 
 format:
   html:
-    theme: cosmo
-    light: [cosmo, flatly]
-    dark: [cosmo, darkly]
+    theme: united
+    light: [united, flatly]
+    dark: [united, darkly]
     code-link: true
 
   pdf:
