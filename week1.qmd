@@ -86,8 +86,8 @@ Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, pa
 
 ## Personal Reflection
 
-I learned remote sensing in my undergraduate study almost 10 years ago and I realised there are so much changes happened. This module is like a refreshment and updated version of knowledge and technology that I learned in the past.
+I first learned about remote sensing during my undergraduate studies about ten years ago, and I'm amazed at how much it has changed. This module is a refresher and updated version of knowledge and technologies that I previously learned.
 
-The advancement of the resolutions blows my mind. I used to work on Landsat 7' image with 15-60m resolution, 7+1 bands, and 16 days temporal resolution. Mostly I used satellite images at my work in coal mining company for topographic map and DEM(Digital Elevation Model) to calculate the overburden removal and coal extraction volume.
+My mind is blown by how far the resolutions have advanced. I used to work on a 16-day temporal resolution, 7+1 bands, and 15–60 m spatial resolution on Landsat 7' image. At my job in the mining industry, I mostly used satellite images to create topographic maps and calculate the volume of *coal extraction* and *overburden removal* using a DEM (Digital Elevation Model).
 
-With the newest technology, the improvement of remote sensing satellite such as Sentinel with better resolutions and Google Earth Engine makes different and broaden the type of analysis that we can do such as object-based image detection with better and faster result.
+With the most recent technology, the improvement of remote sensing satellites such as Sentinel with higher resolutions and Google Earth Engine allows us to do different and more extensive analyses such as object-based image detection with better and faster results.
