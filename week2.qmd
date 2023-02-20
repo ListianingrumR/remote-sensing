@@ -8,6 +8,9 @@ library(fontawesome)
 
 ### Quarto {.unnumbered}
 
+[Quarto](https://quarto.org) official site<br/>
+[Bootswatch](https://bootswatch.com/united/) free bootsrap theme
+
 ### Xaringan {.unnumbered}
 
 ## Applications
