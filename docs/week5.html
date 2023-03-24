@@ -49,7 +49,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./ms.html" rel="next">
+<link href="./week6.html" rel="next">
 <link href="./week4.html" rel="prev">
 <link href="./img/space-satellite.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -206,7 +206,22 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Assessment</span></a>
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Assessment</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -223,7 +238,11 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">5.1</span>  Summary</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">5.1</span>  Summary</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><img src="img/gee-setup.png" class="img-fluid"></a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"><img src="img/howto-gee.png" class="img-fluid"></a></li>
+  </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">5.2</span>  Applications</a></li>
   <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection"><span class="toc-section-number">5.3</span>  Personal Reflection</a></li>
   </ul>
@@ -251,18 +270,71 @@ div.csl-indent {
 
 <section id="summary" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">5.1</span> Summary</h2>
-<p><span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span></p>
+<p>Google Earth Engine (GEE) is a cloud-based platform for analyzing and processing geospatial data. It allows users to access and process massive amounts of remote sensing data for various purposes, including land use and land cover analysis, natural resource management, and disaster response. GEE has a powerful processing infrastructure that allows users to apply various geospatial analysis techniques, such as image classification, object detection, and time-series analysis.</p>
+<p>User Interface (UI) of GEE <span class="citation" data-cites="EarthEngineCode"><span>“Earth <span>Engine Code Editor</span> | <span>Google Earth Engine</span>”</span> (<a href="references.html#ref-EarthEngineCode" role="doc-biblioref">n.d.</a>)</span>:</p>
+<p><img src="img/codeeditor.png" class="img-fluid"></p>
+<section id="section" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section"><img src="img/gee-setup.png" class="img-fluid"></h3>
+<ul>
+<li><p><em>Terms/Jargon Specific to GEE</em><br> GEE has several terms and jargon that are specific to the platform. For example, ee.Image is a class in the GEE API used to represent an image, ee.ImageCollection is used to represent a collection of images, and ee.Geometry is used to represent geometries like points, lines, and polygons. Other terms include ee.Reducer, ee.Filter, and ee.FeatureCollection. A complete list of GEE-specific terms and jargon can be found in the GEE documentation.</p></li>
+<li><p><em>Relating Spatial Data Formats We Have Seen to GEE</em><br> GEE can work with various spatial data formats, including GeoTIFF, NetCDF, and SHP. These formats can be uploaded to the GEE platform and processed using GEE’s tools and algorithms. GEE also supports several remote sensing data formats, including Landsat, Sentinel-2, MODIS, and more.</p></li>
+<li><p><em>Client vs.&nbsp;Server-Side</em><br> GEE processing can occur on both the client-side and server-side. The client-side involves using GEE’s JavaScript API to send requests to the server, visualize data, and process small-scale data. On the other hand, the server-side involves using GEE’s computing infrastructure to process large-scale geospatial data. The server-side can process data more efficiently and effectively than the client-side, making it ideal for large-scale analyses.</p></li>
+<li><p><em>Scale (Resolution)</em><br> GEE works with geospatial data at various scales or resolutions. The platform supports data with a spatial resolution ranging from a few meters to several kilometers. The choice of scale depends on the user’s analysis goals and the spatial and temporal extent of the data.</p></li>
+<li><p><em>Projections</em><br> GEE supports various map projections, including Geographic, UTM, and Web Mercator. The platform automatically applies the correct projection to the data, ensuring that the data is displayed correctly on the map.</p></li>
+</ul>
+</section>
+<section id="section-1" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section-1"><img src="img/howto-gee.png" class="img-fluid"></h3>
+<p>GEE can be accessed through the Google Earth Engine Code Editor, where users can write and run JavaScript code to access and analyze geospatial data. Users can also use GEE’s pre-built tools, such as the Image and Feature Editors, to <strong>view</strong> and <strong>edit</strong> geospatial data <strong>directly!!</strong></p>
+<ul>
+<li><p><em>Building blocks of data (the data in GEE)</em><br> The building blocks of data in GEE are images and image collections. Images are raster data with multiple bands, such as satellite imagery, and can be processed using GEE’s built-in functions. Image collections are collections of images, and they can be filtered, sorted, and processed as a group.</p></li>
+<li><p><em>Collections, geometries, and features</em><br> In GEE, collections are groups of objects, such as a collection of satellite images or a collection of point locations. Geometries are shapes used to define regions of interest, such as a polygon for a city boundary. Features are objects that contain geometries and properties, such as a point location with attributes like temperature and humidity.</p></li>
+<li><p><em>Reducing images (e.g., zonal statistics)</em><br> Reducing images involves computing a statistic or value for each pixel or region in an image. For example, zonal statistics can be used to calculate the mean temperature for each polygon in a feature collection. GEE has built-in functions for reducing images, such as ee.Reducer.mean().</p></li>
+<li><p><em>Regression (over time)</em><br> Regression can be used to analyze changes in geospatial data over time. For example, linear regression can be used to analyze changes in vegetation over time using satellite imagery. GEE has built-in functions for regression, such as ee.Reducer.linearRegression().</p></li>
+<li><p><em>Joins</em><br> Joins involve combining data from two or more collections based on a common attribute. For example, a feature collection of cities can be joined with a table of population data based on a common attribute such as city name. GEE has built-in functions for joining data, such as ee.Join.inner().</p></li>
+<li><p><em>Machine learning (intro)</em><br> GEE also supports machine learning algorithms, such as classification and clustering. Machine learning can be used to classify land cover types using satellite imagery or to identify patterns in geospatial data. GEE has built-in functions for machine learning, such as ee.Classifier.svm().</p></li>
+</ul>
+<p>In summary, GEE can be used through the Code Editor or pre-built tools to access and analyze geospatial data. The building blocks of data in GEE are images and image collections, and GEE supports collections, geometries, and features. GEE also supports reducing images, regression over time, joins, and machine learning algorithms <span class="citation" data-cites="JavaScriptPythonGuides">(<a href="references.html#ref-JavaScriptPythonGuides" role="doc-biblioref"><span>“<span>JavaScript</span> and <span>Python Guides</span> | <span>Google Earth Engine</span> | <span>Google Developers</span>”</span> n.d.</a>)</span>.</p>
+</section>
 </section>
 <section id="applications" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">5.2</span> Applications</h2>
+<p>I took a look into one of the GEE applications from this <a href="https://github.com/philippgaertner/awesome-earth-engine-apps.git">Awesome Earth Engine Apps</a> github repository, and found the study case in Indonesia!</p>
+<p><strong><a href="https://alkindigifty.users.earthengine.app/view/genangan-banjir-menggunakan-ndwi">Genangan banjir menggunakan NDWI</a></strong><br> Which means: <strong>Flood inundation using NDWI</strong><br></p>
+<p>According to <span class="citation" data-cites="GenanganBanjirMenggunakan"><span>“Genangan <span>Banjir</span> Menggunakan <span>NDWI</span>”</span> (<a href="references.html#ref-GenanganBanjirMenggunakan" role="doc-biblioref">n.d.</a>)</span>, this GEE apps view and analyze flood inundation using the Normalized Difference Water Index (NDWI) for a specific area (East Java, Indonesia).</p>
+<p><img src="img/week5app1.PNG" class="img-fluid"></p>
+<p><img src="img/week5app2.PNG" class="img-fluid"></p>
+<ol type="1">
+<li>The application uses NDWI, a remote sensing index that can detect water bodies’ presence and extent.</li>
+<li>NDWI is calculated using near-infrared and shortwave-infrared bands of satellite imagery.</li>
+<li>The user selects an area of interest on the map, and the application loads satellite imagery for that area.</li>
+<li>Then calculates the NDWI for the selected area and displays it as a map layer.</li>
+<li>The user can adjust the threshold value for the NDWI layer to highlight different water levels, allowing them to see areas that are potentially flooded. 6. The application also provides a time series of NDWI values, allowing the user to observe changes in water levels over time.</li>
+</ol>
+<p>Clearly, this application demonstrate the potential of remote sensing for flood mapping and monitoring, which can be useful for disaster response and management (e.g.&nbsp;flood monitoring and early warning, water management, and environmental monitoring).</p>
+<p>Other applications on GEE?</p>
+<p><strong>Many!</strong></p>
+<p>Including land cover and land use change detection, climate change analysis, deforestation monitoring, and crop yield estimation.</p>
 </section>
 <section id="personal-reflection" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="personal-reflection"><span class="header-section-number">5.3</span> Personal Reflection</h2>
+<p>I guess GEE is a game-changer in remote sensing industry. My thought about <strong>Why it’s different?</strong>:</p>
+<ol type="1">
+<li><p>The GEE platform is unique because it provides access to a massive collection of geospatial datasets, tools, and algorithms in a single platform, eliminating the need for users to search and download data from multiple sources! (I remember how hard this was 10 years ago lol)</p></li>
+<li><p>The GEE platform provides a scalable and flexible infrastructure for processing and analyzing large-scale geospatial data, enabling users to conduct complex analyses quickly and efficiently.</p></li>
+<li><p>The platform is also accessible to <strong>anyone</strong> (with an internet connection, of course!), making it an excellent tool for democratizing geospatial analysis.</p></li>
+</ol>
 
 
-<div id="refs" class="references csl-bib-body" role="doc-bibliography" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="doc-biblioentry">
-Knuth, D. E. (1984) <span>“Literate programming,”</span> <em>Comput. J.</em>, 27(2), pp. 97–111. doi: <a href="https://doi.org/10.1093/comjnl/27.2.97">10.1093/comjnl/27.2.97</a>.
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-EarthEngineCode" class="csl-entry" role="doc-biblioentry">
+<span>“Earth <span>Engine Code Editor</span> | <span>Google Earth Engine</span>.”</span> n.d. <span>Google Developers</span>. Accessed March 24, 2023. <a href="https://developers.google.com/earth-engine/guides/playground">https://developers.google.com/earth-engine/guides/playground</a>.
+</div>
+<div id="ref-GenanganBanjirMenggunakan" class="csl-entry" role="doc-biblioentry">
+<span>“Genangan <span>Banjir</span> Menggunakan <span>NDWI</span>.”</span> n.d. Accessed March 24, 2023. <a href="https://alkindigifty.users.earthengine.app/view/genangan-banjir-menggunakan-ndwi">https://alkindigifty.users.earthengine.app/view/genangan-banjir-menggunakan-ndwi</a>.
+</div>
+<div id="ref-JavaScriptPythonGuides" class="csl-entry" role="doc-biblioentry">
+<span>“<span>JavaScript</span> and <span>Python Guides</span> | <span>Google Earth Engine</span> | <span>Google Developers</span>.”</span> n.d. Accessed March 24, 2023. <a href="https://developers.google.com/earth-engine/guides">https://developers.google.com/earth-engine/guides</a>.
 </div>
 </div>
 </section>
@@ -408,8 +480,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ms.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Assessment</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week6.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

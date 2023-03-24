@@ -209,7 +209,22 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Assessment</span></a>
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Assessment</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -265,7 +280,8 @@ div.csl-indent {
 <div class="cell-output-display">
 <div>
 <p>
-</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">flowchart LR;
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#FFC94A' , 'lineColor':'#327CA7'}}}%%
+flowchart LR;
     id1[Remote Sensing]--&gt;id11[Sensors];
       id11--&gt;id111[Types of Sensors];
         id111--&gt;id1111[UAVs and Drones];
@@ -354,7 +370,7 @@ div.csl-indent {
 </section>
 <section id="section-3" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="section-3"><img src="img/em-spectrum.PNG" class="img-fluid"></h3>
-<p>Electromagnetic energy has waves, have wavelength</p>
+<p>Electromagnetic energy has waves, have wavelength. According to <span class="citation" data-cites="maplesGoogleEarthEngine2021">Maples (<a href="references.html#ref-maplesGoogleEarthEngine2021" role="doc-biblioref">2021</a>)</span>, below is the illustration of electromagnetic waves.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/fig1.png" class="img-fluid figure-img"></p>
@@ -368,7 +384,7 @@ div.csl-indent {
 <p>in each spectral/spectrum, the image will be white if it reflects the spactrum</p>
 <p>255 spectrum of each RGB</p>
 <p><strong>Observing the surface of the earth</strong></p>
-<p>Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc <span class="citation" data-cites="knuth84">(<a href="references.html#ref-knuth84" role="doc-biblioref">Knuth, 1984</a>)</span>.</p>
+<p>Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc <span class="citation" data-cites="maplesGoogleEarthEngine2021">(<a href="references.html#ref-maplesGoogleEarthEngine2021" role="doc-biblioref">Maples 2021</a>)</span>.</p>
 <p><strong>Classifying the pixels through the wavelength</strong></p>
 </section>
 <section id="section-4" class="level3 unnumbered">
@@ -377,7 +393,14 @@ div.csl-indent {
 </section>
 <section id="applications" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">1.2</span> Applications</h2>
-<p><img src="img/apps-uses.PNG" class="img-fluid"></p>
+<p>Examples of applications of remote sensing in these sectors:</p>
+<ul>
+<li><p>Agriculture: Mapping crop types in the US Midwest <a href="https://docs.google.com/document/d/1MIPIFMJakC6eNGOhlkXLcwjUKFyY6QJLHElzBCOfyn4/edit">Chapter A1.1</a></p></li>
+<li><p>Climate change: Air pollution and Population Exposure <a href="https://docs.google.com/document/d/1MIPIFMJakC6eNGOhlkXLcwjUKFyY6QJLHElzBCOfyn4/edit">Chapter A1.4</a> using gridded air pollution data from Sentinel-5P.</p></li>
+<li><p>Disasters: Active fire monitoring <a href="https://docs.google.com/document/d/1LrMoXDcXY7p_V0DcTJve3t37d6AfPeyJdu1Fxkzgb98/edit">Chapter A3.1</a></p></li>
+<li><p>Environment: Mangroves change mapping <a href="https://docs.google.com/document/d/1LrMoXDcXY7p_V0DcTJve3t37d6AfPeyJdu1Fxkzgb98/edit">Chapter A3.3</a> using map-to-map change detection between 2000 and 2020.</p></li>
+<li><p>Urban: Impact of urban expansion (urban classification) <a href="https://docs.google.com/document/d/1MIPIFMJakC6eNGOhlkXLcwjUKFyY6QJLHElzBCOfyn4/edit">Chapter A1.2</a></p></li>
+</ul>
 </section>
 <section id="personal-reflection" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="personal-reflection"><span class="header-section-number">1.3</span> Personal Reflection</h2>
@@ -386,9 +409,9 @@ div.csl-indent {
 <p>With the most recent technology, the improvement of remote sensing satellites such as Sentinel with higher resolutions and Google Earth Engine allows us to do different and more extensive analyses such as object-based image detection with better and faster results.</p>
 
 
-<div id="refs" class="references csl-bib-body" role="doc-bibliography" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="doc-biblioentry">
-Knuth, D. E. (1984) <span>“Literate programming,”</span> <em>Comput. J.</em>, 27(2), pp. 97–111. doi: <a href="https://doi.org/10.1093/comjnl/27.2.97">10.1093/comjnl/27.2.97</a>.
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-maplesGoogleEarthEngine2021" class="csl-entry" role="doc-biblioentry">
+Maples, Stace. 2021. <span>“Google <span>Earth Engine</span> 101.”</span> <span>ArcGIS StoryMaps</span>. May 13, 2021. <a href="https://storymaps.arcgis.com/stories/cdfc91d050634a5294ac897acc959d55">https://storymaps.arcgis.com/stories/cdfc91d050634a5294ac897acc959d55</a>.
 </div>
 </div>
 </section>

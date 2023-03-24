@@ -1,0 +1,66 @@
+# Classification II
+
+## Summary
+
+### More into Segmentation and Object-based analysis
+
+"A lot of people want to do object-based classification because of an improvement of signal noise" - Noel Gorelick
+
+I am interested in [this talk](https://youtu.be/2R0aTaMtYTY) by Noel Gorelick about image segmentation and object based methods. 
+
+{{< video https://youtu.be/2R0aTaMtYTY >}}
+
+Object-based image analysis is a two-step approach that involves segmenting the image using an algorithm and then classifying the landscape objects using either supervised or unsupervised approaches. The SNIC segmentation algorithm is discussed as an example of an object-based image analysis approach available in Earth Engine, which has been used in various research applications, including mapping land use, wetlands, burned areas, sustainable development goal indicators, and ecosystem services.
+
+### Accuracy Assessment
+
+The research paper titled "Accuracy Dimensions in Remote Sensing" by @barsiACCURACYDIMENSIONSREMOTE2018 focuses on the various accuracy dimensions that need to be considered when performing remote sensing applications. The study discusses the different accuracy metrics and how they can be used to evaluate the quality of remote sensing products.
+
+![](img/dataquality.PNG)
+
+![](img/accuracydim.PNG)
+
+The key takeaways from this paper are:
+
+- There are multiple dimensions to consider when assessing the accuracy of remote sensing products, including spatial accuracy, spectral accuracy, temporal accuracy, and geometric precision. Below is the example of accrucary in land cover application.
+
+![](img/landcoveracc.PNG)
+
+- "The confusion matrix, also known as error matrix is a specific table that allows visualization of the performance of a classification. The matrix is an excellent base to derive further quality measures. Two basic types exist: the binary and the multiclass confusion matrix."[@@barsiACCURACYDIMENSIONSREMOTE2018]
+
+![](img/binaryconfusion.PNG)
+
+![](img/multiclassconfusion.PNG)
+
+@barsiACCURACYDIMENSIONSREMOTE2018 provide a useful overview of the different accuracy dimensions in remote sensing and how they can be evaluated using different accuracy metrics. The study provides insights into the factors that affect the accuracy of remote sensing products and highlights the importance of selecting an appropriate accuracy metric for a specific application.
+
+---
+
+Utilisation of segmentation and object-based image classification for urban and built environment turns out very useful and become easier. Thanks to the more high spatial resolution of satellite image today. By segmenting an image into different objects such as buildings, roads, and green spaces, and then classifying those objects based on their characteristics, we can create detailed maps of urban areas that can be used for city planning and management. However, to assess accuracy, we have to be careful on various parameters that already mentioned above.
+
+
+## Applications
+
+Interestingly, from the other module (CASA0006 Data Science for Spatial System), we learn baout object detection in satellite imagery using YOLOv5.
+
+This application combining the YOLOv5 deep learning model to detect objects in satellite imagery. Steps in this application process:
+
+1. Object detection in satellite imagery
+
+2. Training a deep learning model on a custom dataset
+
+3. Dynamic inference using Google Earth Engine
+
+YOLOv5 is a convolutional neural networks (CNNs) to identify patterns in images. YOLOv5 divides images into a grid and predicts the location and size of objects within each cell. The model is trained on a dataset containing 80 different objects and can be retrained on labeled satellite imagery datasets for object detection in satellite images from Google Earth Engine. 
+
+![YOLOv5. Source: [Ollie Ballinger](https://oballinger.github.io/RS4OSINT/images/yolo.jpg)](https://oballinger.github.io/RS4OSINT/images/yolo.jpg)
+
+After got the trained model, it is used to conduct object detection. This apPlications accessing GEE from python notebook.
+
+![Object Detection. Source: [Ollie Ballinger](https://oballinger.github.io/RS4OSINT/images/boneyard.jpg)](https://oballinger.github.io/RS4OSINT/images/boneyard.jpg)
+
+As we can see in the figure, the result is quite promising with high degree of accuracy.
+
+## Personal Reflection
+
+I found this week's topics to be both challenging and rewarding. The concepts of segmentation and object-based classification can be complex, but they are essential for many remote sensing applications. And most importantly, it makes quantifying parameter easier in the country that has not develop a good data base or open data, such as Indonesia. I look forward to utilise object detection more to monitor the unrevealed data such as illegal mining.

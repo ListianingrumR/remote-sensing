@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Remote Sensing Learning Diary - 8&nbsp; Temperature and Policy</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./ms.html" rel="next">
+<link href="./week7.html" rel="prev">
+<link href="./img/space-satellite.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+</head>
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-sm navbar-dark "><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/space-satellite.png" alt="" class="navbar-logo"></a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Remote Sensing Learning Diary</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/listianingrumr"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/rahmaditalistia"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ListianingrumR/remote-sensing"><i class="bi bi-github" role="img" aria-label="Source Code">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item dropdown  compact">
+    <a class="nav-link dropdown-toggle" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-share" role="img" aria-label="Share">
+</i> 
+ <span class="menu-text"></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="">
+<li>
+    <a class="dropdown-item" href="https://www.linkedin.com/sharing/share-offsite/?url=%7Curl%7C"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="dropdown-text">LinkedIn</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://twitter.com/intent/tweet?url=%7Curl%7C"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="dropdown-text">Twitter</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.facebook.com/sharer/sharer.php?u=%7Curl%7C"><i class="bi bi-facebook" role="img">
+</i> 
+ <span class="dropdown-text">Facebook</span></a>
+  </li>  
+    </ul>
+</li>
+</ul>
+<div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav><nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }"><div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">
+<span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy</span>
+</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Remote Sensing</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Portfolio Tools</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote Sensing Data</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy Application</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Introduction to GEE (Google Earth Engine)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Assessment</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+</div>
+</nav><!-- margin-sidebar --><div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+<li>
+<a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">8.1</span>  Summary</a>
+  <ul class="collapse">
+<li><a href="#what-is-urban-heat-island-uhi" id="toc-what-is-urban-heat-island-uhi" class="nav-link" data-scroll-target="#what-is-urban-heat-island-uhi"><span class="toc-section-number">8.1.1</span>  What is Urban Heat Island (UHI)?</a></li>
+  <li><a href="#uhi-factors" id="toc-uhi-factors" class="nav-link" data-scroll-target="#uhi-factors"><span class="toc-section-number">8.1.2</span>  UHI factors</a></li>
+  <li><a href="#global-policies" id="toc-global-policies" class="nav-link" data-scroll-target="#global-policies"><span class="toc-section-number">8.1.3</span>  Global Policies</a></li>
+  <li><a href="#local-policies" id="toc-local-policies" class="nav-link" data-scroll-target="#local-policies"><span class="toc-section-number">8.1.4</span>  Local Policies</a></li>
+  </ul>
+</li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">8.2</span>  Applications</a></li>
+  <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection"><span class="toc-section-number">8.3</span>  Personal Reflection</a></li>
+  </ul><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ListianingrumR/remote-sensing/edit/main/week8.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/ListianingrumR/remote-sensing/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title d-none d-lg-block">
+<span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy</span>
+</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header><section id="summary" class="level2" data-number="8.1"><h2 data-number="8.1" class="anchored" data-anchor-id="summary">
+<span class="header-section-number">8.1</span> Summary</h2>
+<section id="what-is-urban-heat-island-uhi" class="level3" data-number="8.1.1"><h3 data-number="8.1.1" class="anchored" data-anchor-id="what-is-urban-heat-island-uhi">
+<span class="header-section-number">8.1.1</span> What is Urban Heat Island (UHI)?</h3>
+<p>So, it is about temperature raise because of the built environment. The built environment such as roads, buildings, pavements and other unnatural surfaces <strong>absorb</strong> and <strong>retain</strong> heat. That is why city is hotter than surrounding rural areas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://www.publichealthnotes.com/wp-content/uploads/2018/03/Featured-image.gif" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Urban Heat Island (UHI). Source: <a href="https://www.publichealthnotes.com/wp-content/uploads/2018/03/Featured-image.gif">Public Health Notes</a></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://www.epa.gov/sites/default/files/2020-07/heat_island_effect_diagram.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Urban Heat Island (UHI). Source: <a href="https://www.epa.gov/sites/default/files/2020-07/heat_island_effect_diagram.jpg">US EPA</a></figcaption><p></p>
+</figure>
+</div>
+<p>By looking at this figure, I just found out that the surface temperature is so much higher than the air temperature during day time. Not only that, it is also vary more than the atmospheric temperature. However, interestingly, it has similar value and not much vary on the night time. But still, downtown areas experience higher temperature than surrounding rural areas.</p>
+</section><section id="uhi-factors" class="level3" data-number="8.1.2"><h3 data-number="8.1.2" class="anchored" data-anchor-id="uhi-factors">
+<span class="header-section-number">8.1.2</span> UHI factors</h3>
+<p>Some of the factors resulting on UHI according to <span class="citation" data-cites="usepaLearnHeatIslands2014">US EPA (<a href="references.html#ref-usepaLearnHeatIslands2014" role="doc-biblioref">2014</a>)</span>:</p>
+<ul>
+<li><p>Reduced natural landscpae in urban areas<br> The more we cover our natural landscape (vegetation, water) with concrete materials, the higher temperature we will get because hard, dry surfaces provide less shade and moisture than natural landscapes.</p></li>
+<li><p>Urban material properties<br> Heat island often build throughout the day and become more pronounced in the night time due to the slow release of heat from urban materials (e.g.&nbsp;concrete, glass)</p></li>
+<li><p>Urban geometry<br> The dimensions of the buildings are also can promote UHI. The higher buildings in the same blocks, the more it will influence the wind flow and block it.</p></li>
+<li><p>Heat generated from human activities<br> Industrial activities, using ACs, and transportations also contribute to the emission and will heat the environment.</p></li>
+<li><p>Weather and geography<br> Calm and clear weather conditions result in more severe heat islands by maximizing the amount of solar energy reaching urban surfaces and minimizing the amount of heat that can be carried away. Conversely, strong winds and cloud cover suppress heat island formation. Geographic features can also impact the heat island effect. For example, nearby mountains can block wind from reaching a city, or create wind patterns that pass through a city.</p></li>
+</ul></section><section id="global-policies" class="level3" data-number="8.1.3"><h3 data-number="8.1.3" class="anchored" data-anchor-id="global-policies">
+<span class="header-section-number">8.1.3</span> Global Policies</h3>
+<p>Several global policies about UHI:</p>
+<ul>
+<li><p>UN Habitat New Urban Agenda: Standards and principles for planning, construction, development, management and urban improvement<br> Point 54: reducing inefficient mmobility, congestion, and air pollution.<br> Point 79: climate change adaptation and mitigation<br> Point 37: inclusive and accessible green spaces.</p></li>
+<li><p>UN SDGs 11: Make cities and human settlements inclusive, safe, resilient and sustainable<br> Investing in parks and green spaces in urban areas will help to ameliorate the urban heat island effect and improve air quality in urban spaces.<br> We work with national coordination units that support integrated urban planning and mapping and promote sustainable heating and cooling in related and cross-sector policy frameworks at multiple levels</p></li>
+<li><p>COP26: <a href="https://www.unep.org/resources/report/beating-heat-sustainable-cooling-handbook-cities">Beating the Heat: A Sustainable Cooling Handbook for Cities</a></p></li>
+</ul></section><section id="local-policies" class="level3" data-number="8.1.4"><h3 data-number="8.1.4" class="anchored" data-anchor-id="local-policies">
+<span class="header-section-number">8.1.4</span> Local Policies</h3>
+<p>Superblocks are super interesting! (One of the reason I want to go to Barcelona!)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://regenerativedesign.world/wp-content/uploads/2022/04/barcelona08.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Superblocks Model. Source: <a href="https://regenerativedesign.world/wp-content/uploads/2022/04/barcelona08.jpg">regenerativedesign.world</a></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://regenerativedesign.world/wp-content/uploads/2022/04/superblocks_strategy_@Ajuntament_De_Barcelona.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Source: <a href="https://regenerativedesign.world/wp-content/uploads/2022/04/superblocks_strategy_@Ajuntament_De_Barcelona.jpg">regenerativedesign.world</a></figcaption><p></p>
+</figure>
+</div>
+<p>My thought on this is that it is closed to 15 minutes city model. However, can it be applied to other cities?</p>
+</section></section><section id="applications" class="level2" data-number="8.2"><h2 data-number="8.2" class="anchored" data-anchor-id="applications">
+<span class="header-section-number">8.2</span> Applications</h2>
+<p>One of the applications of this environmental-related issues and problem solving using remote sensing is presented in our group presentation <a href="https://listianingrumr.github.io/polishe/#1">Landfill Monitoring Dashboard by PoliShe</a></p>
+<p>We are providing surface temperature monitoring as one of the product using study by <span class="citation" data-cites="hanamiEstimationMakassarLandfill2022">Hanami et al. (<a href="references.html#ref-hanamiEstimationMakassarLandfill2022" role="doc-biblioref">2022</a>)</span>, which related to this week’s lecture with study case in Makassar,South Sulawesi, Indonesia.</p>
+<p>Policy that we aim to focus is the Landfill Monitoring policy which in-line with the Green House Gas Emission National Policy the <a href="https://unfccc.int/sites/default/files/NDC/2022-09/ENDC%20Indonesia.pdf">New 2030 Climate Targets</a></p>
+</section><section id="personal-reflection" class="level2" data-number="8.3"><h2 data-number="8.3" class="anchored" data-anchor-id="personal-reflection">
+<span class="header-section-number">8.3</span> Personal Reflection</h2>
+<p>This week we’re talking mostly about urban heat island and policies that are related to environmental issues in cities around the world. The lecturer said some of the policies are made unclear and no specific approach. However, I must argue this point of view because as a person who grew and lives in a developing countries, I have to say specific rules/policy are not relatable to all countries (especially developing country).</p>
+<p>As the lecturer mentioned, the COP26 Beat the Heat Handbook only give a list of general parameters and have 200+ pages to read. I think it is because the organization gives the national authority, for example Indonesian government, a flexibility to approach their solution based on the situation, condition, and data in Indonesia. The next stage of the project is the one that state a clear goal and approach while corresponding with national government (e.g.&nbsp;Green House Gas Emission reduction project by monitoring landfill).</p>
+<p>Overall, I agree that we cannot just make a policy because of the sake of it. Data-driven approach is the most factual and practical approach to solve real-world problem and make recommendations to the policy makers. The establishment of public policy must include the research expert study and recommendations so that we don’t waste money doing something that are pointless (and this still happens a lot <svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M169.6 291.3C172.8 286.9 179.2 286.9 182.4 291.3C195.6 308.6 223.1 349 223.1 369C223.1 395 202.5 416 175.1 416C149.5 416 127.1 395 127.1 369C127.1 349 156.6 308.6 169.6 291.3H169.6zM368 346.8C377.9 355.6 378.7 370.8 369.9 380.7C361 390.6 345.9 391.4 335.1 382.6C314.7 363.5 286.7 352 256 352C242.7 352 232 341.3 232 328C232 314.7 242.7 304 256 304C299 304 338.3 320.2 368 346.8L368 346.8zM335.6 176C353.3 176 367.6 190.3 367.6 208C367.6 225.7 353.3 240 335.6 240C317.1 240 303.6 225.7 303.6 208C303.6 190.3 317.1 176 335.6 176zM175.6 240C157.1 240 143.6 225.7 143.6 208C143.6 190.3 157.1 176 175.6 176C193.3 176 207.6 190.3 207.6 208C207.6 225.7 193.3 240 175.6 240zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM175.9 448C200.5 458.3 227.6 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256C48 308.7 67.59 356.8 99.88 393.4C110.4 425.4 140.9 447.9 175.9 448V448z"></path></svg> ).</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-hanamiEstimationMakassarLandfill2022" class="csl-entry" role="doc-biblioentry">
+Hanami, Z. A., A. D. Damayanti, T. Takeda, and H. Alimuddin. 2022. <span>“Estimation of <span>Makassar</span>’s <span>Landfill Surface Temperature</span> and <span>Its Surroundings Using Remote Sensing</span>.”</span> <em>IOP Conference Series: Earth and Environmental Science</em> 1117 (1): 012055. <a href="https://doi.org/10.1088/1755-1315/1117/1/012055">https://doi.org/10.1088/1755-1315/1117/1/012055</a>.
+</div>
+<div id="ref-usepaLearnHeatIslands2014" class="csl-entry" role="doc-biblioentry">
+US EPA, OAR. 2014. <span>“Learn <span>About Heat Islands</span>.”</span> Overviews and Factsheets. June 17, 2014. <a href="https://www.epa.gov/heatislands/learn-about-heat-islands">https://www.epa.gov/heatislands/learn-about-heat-islands</a>.
+</div>
+</div>
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
+      <a href="./week7.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./ms.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Assessment</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

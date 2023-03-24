@@ -3,6 +3,7 @@
 ## Summary
 
 ```{mermaid}
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#FFC94A' , 'lineColor':'#327CA7'}}}%%
 flowchart LR;
     id1[Remote Sensing]-->id11[Sensors];
       id11-->id111[Types of Sensors];
@@ -56,7 +57,7 @@ Those values represent the amount of reflected electromagnetic energy (which is 
 
 ### ![](img/em-spectrum.PNG) {.unnumbered}
 
-Electromagnetic energy has waves, have wavelength
+Electromagnetic energy has waves, have wavelength. According to @maplesGoogleEarthEngine2021, below is the illustration of electromagnetic waves.
 
 ![Electromagnetic Waves](img/fig1.png)
 
@@ -74,7 +75,7 @@ in each spectral/spectrum, the image will be white if it reflects the spactrum
 
 **Observing the surface of the earth**
 
-Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc [@knuth84].
+Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, panchromatic (black n white, take the intensity value), shortwave infrared, thermal infrared, etc [@maplesGoogleEarthEngine2021].
 
 **Classifying the pixels through the wavelength**
 
@@ -82,7 +83,17 @@ Satellites can see OUTSIDE RGB (more than 3 spectrum/band), such as infrared, pa
 
 ## Applications
 
-![](img/apps-uses.PNG)
+Examples of applications of remote sensing in these sectors:
+
+- Agriculture: Mapping crop types in the US Midwest [Chapter A1.1](https://docs.google.com/document/d/1MIPIFMJakC6eNGOhlkXLcwjUKFyY6QJLHElzBCOfyn4/edit)
+
+- Climate change: Air pollution and Population Exposure [Chapter A1.4](https://docs.google.com/document/d/1MIPIFMJakC6eNGOhlkXLcwjUKFyY6QJLHElzBCOfyn4/edit) using gridded air pollution data from Sentinel-5P.
+
+- Disasters: Active fire monitoring [Chapter A3.1](https://docs.google.com/document/d/1LrMoXDcXY7p_V0DcTJve3t37d6AfPeyJdu1Fxkzgb98/edit)
+
+- Environment: Mangroves change mapping [Chapter A3.3](https://docs.google.com/document/d/1LrMoXDcXY7p_V0DcTJve3t37d6AfPeyJdu1Fxkzgb98/edit) using map-to-map change detection between 2000 and 2020.
+
+- Urban: Impact of urban expansion (urban classification) [Chapter A1.2](https://docs.google.com/document/d/1MIPIFMJakC6eNGOhlkXLcwjUKFyY6QJLHElzBCOfyn4/edit)
 
 ## Personal Reflection
 

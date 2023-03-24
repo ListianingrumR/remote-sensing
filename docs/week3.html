@@ -20,6 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -187,7 +206,22 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Assessment</span></a>
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Assessment</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -213,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#corrections" id="toc-corrections" class="nav-link" data-scroll-target="#corrections">Corrections</a>
   <ul class="collapse">
-  <li><a href="#geometric-correction-parallax-remember-photogrammetry" id="toc-geometric-correction-parallax-remember-photogrammetry" class="nav-link" data-scroll-target="#geometric-correction-parallax-remember-photogrammetry">Geometric correction (parallax! remember photogrammetry)</a></li>
+  <li><a href="#geometric-correction-parallax-remember-photogrammetry-in-my-undergrad" id="toc-geometric-correction-parallax-remember-photogrammetry-in-my-undergrad" class="nav-link" data-scroll-target="#geometric-correction-parallax-remember-photogrammetry-in-my-undergrad">Geometric correction (parallax! remember photogrammetry in my undergrad)</a></li>
   <li><a href="#atmospheric-correction" id="toc-atmospheric-correction" class="nav-link" data-scroll-target="#atmospheric-correction">Atmospheric correction</a></li>
   <li><a href="#orthorectification-correction-topographic-correction" id="toc-orthorectification-correction-topographic-correction" class="nav-link" data-scroll-target="#orthorectification-correction-topographic-correction">Orthorectification correction / topographic correction</a></li>
   <li><a href="#radiometric-calibration" id="toc-radiometric-calibration" class="nav-link" data-scroll-target="#radiometric-calibration">Radiometric calibration</a></li>
@@ -223,13 +257,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#mosaicking" id="toc-mosaicking" class="nav-link" data-scroll-target="#mosaicking">Mosaicking</a></li>
   <li><a href="#image-enhancement" id="toc-image-enhancement" class="nav-link" data-scroll-target="#image-enhancement">Image enhancement</a></li>
   </ul></li>
-  <li><a href="#summary-1" id="toc-summary-1" class="nav-link" data-scroll-target="#summary-1">Summary</a>
-  <ul class="collapse">
-  <li><a href="#part-1-corrections" id="toc-part-1-corrections" class="nav-link" data-scroll-target="#part-1-corrections">Part 1: corrections</a></li>
-  <li><a href="#part-2-data-joining-and-enhancement" id="toc-part-2-data-joining-and-enhancement" class="nav-link" data-scroll-target="#part-2-data-joining-and-enhancement">Part 2: data joining and enhancement</a></li>
-  <li><a href="#task" id="toc-task" class="nav-link" data-scroll-target="#task">Task</a></li>
-  </ul></li>
-  <li><a href="#practical3" id="toc-practical3" class="nav-link" data-scroll-target="#practical3">Practical3</a></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">3.2</span>  Applications</a></li>
   <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection"><span class="toc-section-number">3.3</span>  Personal Reflection</a></li>
   </ul>
@@ -276,23 +303,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="corrections" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="corrections">Corrections</h2>
+<p>Remote sensing is like taking a picture of the Earth from a big camera in space. But sometimes, the picture doesn’t look right because of things like clouds, the way the camera is positioned, or other problems. So, we need to fix those problems so we can use the picture to learn more about the Earth. That’s what we call “remote sensing corrections”. It’s like making the picture better by changing things in it to make it look more like what the Earth really looks like.</p>
 <ul>
 <li>scan lines</li>
 </ul>
-<section id="geometric-correction-parallax-remember-photogrammetry" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="geometric-correction-parallax-remember-photogrammetry">Geometric correction (parallax! remember photogrammetry)</h3>
+<section id="geometric-correction-parallax-remember-photogrammetry-in-my-undergrad" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="geometric-correction-parallax-remember-photogrammetry-in-my-undergrad">Geometric correction (parallax! remember photogrammetry in my undergrad)</h3>
+<p>This type of correction helps to fix any errors in the location or position of features in the image caused by the angle at which the satellite was positioned, the curvature of the Earth, and other factors.</p>
 <ul>
 <li>view angle</li>
 <li>topography</li>
 <li>wind</li>
 <li>rotation of the earth</li>
 </ul>
+<p>Geometric correction helps to make sure that the features in the image are accurately located and aligned.</p>
 <p>Geometric correction on satellite vs airplane?</p>
 <p>How to deal with? GCP: Ground Control Point linear regression: parallax - RMSE &gt;&gt; adding more GCPs can - Resample methods if the grid cells not align!: - Nearest neighbor - linear - cubic - cubic spline</p>
 </section>
 <section id="atmospheric-correction" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="atmospheric-correction">Atmospheric correction</h3>
-<p>Not necessary if you only have one single image or not a time-series tiles Necessary: have time elements (want to see the same spot in various times/time-series)</p>
+<p>The Earth’s atmosphere can absorb, reflect, and scatter radiation from the sun, which can affect the quality of the remote sensing image. Atmospheric correction removes these effects to reveal the true spectral values of the features in the image.</p>
+<p>It is not necessary if you only have one single image or not a time-series tiles Necessary: have time elements (want to see the same spot in various times/time-series)</p>
 <p>Atmosphere will absorb/scatter the sunlight and create haze! Now there are: surface reflectance Analysis Ready Data (ARD)</p>
 <blockquote class="blockquote">
 <p>! bright object/really reflective object can cause to <em>adjacency effect</em> (one pixel influence others)</p>
@@ -303,19 +334,16 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="orthorectification-correction-topographic-correction" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="orthorectification-correction-topographic-correction">Orthorectification correction / topographic correction</h3>
-<ul>
-<li>cosine correction</li>
-<li>mineart correction</li>
-<li>statistical empirical correction</li>
-<li>c correction (advancing the cosine)</li>
-</ul>
+<p>When a satellite takes a picture of the Earth, it is viewing the planet from a very high altitude, and the images may appear distorted because of the angle at which they are taken. This can lead to inaccuracies in the image, such as features appearing stretched or compressed, or not being located in the correct place.</p>
+<p>Corrections: - cosine correction - mineart correction - statistical empirical correction - c correction (advancing the cosine)</p>
 <p><strong>cosine correctional </strong></p>
 <p><img src="img/Screen Shot 2023-01-24 at 13.46.16.png" class="img-fluid"></p>
 </section>
 <section id="radiometric-calibration" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="radiometric-calibration">Radiometric calibration</h3>
+<p>This type of correction is used to adjust the brightness or contrast of the image so that it accurately represents the reflectance values of the features in the image. Radiometric correction helps to make sure that the features in the image are clearly visible and not too bright or too dark.</p>
 <p>Sensors capture image brightness and are distributed as a Digital Number (or DN) - allows for efficient storage but&nbsp;<strong>has no units!</strong></p>
-<p>DN to&nbsp;<strong>spectral radiance</strong>&nbsp;= radiometric calibration Radiometric calibration: Correct DN to spectral radiance</p>
+<p>Digitla Number (DN) to&nbsp;<strong>spectral radiance</strong>&nbsp;= radiometric calibration Radiometric calibration: Correct DN to spectral radiance</p>
 </section>
 </section>
 <section id="data-joining-and-enhancement" class="level2 unnumbered">
@@ -331,20 +359,14 @@ ul.task-list li input[type="checkbox"] {
 <li>fusion: multi-temporal images or images from different satellites pan sharpening (use grey band/panchromatic to sharpen the rgb band)</li>
 <li>GEOBIA (Object-Based Image Analysis) <a href="https://gisgeography.com/obia-object-based-image-analysis-geobia/"></a></li>
 </ul>
-</section>
-</section>
-<section id="summary-1" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="summary-1">Summary</h2>
-<section id="part-1-corrections" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="part-1-corrections">Part 1: corrections</h3>
+<hr>
+<p>Thoughts: corrections</p>
 <ul>
 <li>Imagery may contain error from a variety of sources</li>
 <li>We must correct where appropriate&nbsp;</li>
 <li>We must contextualise the use of the imagery&nbsp;</li>
 </ul>
-</section>
-<section id="part-2-data-joining-and-enhancement" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="part-2-data-joining-and-enhancement">Part 2: data joining and enhancement</h3>
+<p>Thoughts: data joining and enhancement {.unnumbered}</p>
 <ul>
 <li>Mosaicing in with a standard method isn’t appropriate for satellite imagery&nbsp;</li>
 <li>Imagery can be “improved/enhanced” based on the energy reflected and the contrast between features&nbsp;</li>
@@ -355,25 +377,22 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="task" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="task">Task</h3>
-<p>MAKE AN RS DICTIONARY (zenith, azimuth)</p>
-<hr>
-</section>
-</section>
-<section id="practical3" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="practical3">Practical3</h2>
-<p><a href="https://www.usgs.gov/landsat-missions/landsat-data-access">Landsat Data Access</a></p>
-<p>Landsat USGS &gt; comes with collections: Landsat Collections ensure that all Landsat Level-1 products contain known data quality. <a href="https://www.usgs.gov/landsat-missions/landsat-collections">Source</a> <img src="img/Screen Shot 2023-01-26 at 10.13.51.png" class="img-fluid"> Level means specific product (temp, humidity, etc)</p>
-<p>Example: Landsat 8-9 Operational Land Imager (OLI) and Thermal Infrared (TIRS) Collection 2 Level-2 Science Products 30-meter multispectral data. <a href="https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-8-9-olitirs-collection-2-level-2#overview">Source</a></p>
 </section>
 <section id="applications" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> Applications</h2>
+<p><span class="citation" data-cites="liInfluenceGeometricCorrection2021">Li and Xia (<a href="references.html#ref-liInfluenceGeometricCorrection2021" role="doc-biblioref">2021</a>)</span> investigates the impact of geometric correction on the accuracy of extracting remote sensing reflectance (RSR) from water bodies using satellite imagery. The study found that geometric correction plays an essential role in the accurate retrieval of RSR. Using Landsat 8 Operational Land Imager (OLI) imagery acquired over the Taihu Lake region in China, which covered an area of approximately 180 km × 180 km with a spatial resolution of 30 m, the results show that the different geometric correction methods can cause significant variations in the retrieved RSR values, and the accuracy of the retrieved RSR can be significantly improved by applying a suitable geometric correction method.</p>
+<p>Limitation to this study is it did not consider other factors such as atmospheric correction or the impact of different algorithms on the accuracy of the extracted RSR values.</p>
 </section>
 <section id="personal-reflection" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="personal-reflection"><span class="header-section-number">3.3</span> Personal Reflection</h2>
+<p>My thoughts on this week’s lecture is although there is already corrected data, we still need to know about the fundamental and principle study behind the image correction in remote sensing. in my undergrad study, the image correction is a crucial step in obtaining accurate and reliable data from satellite imagery.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-liInfluenceGeometricCorrection2021" class="csl-entry" role="doc-biblioentry">
+Li, Aimin, and Guangping Xia. 2021. <span>“The Influence of Geometric Correction on the Accuracy of the Extraction of the Remote Sensing Reflectance of Water.”</span> <em>International Journal of Remote Sensing</em> 42 (6): 2280–91. <a href="https://doi.org/10.1080/2150704X.2020.1847350">https://doi.org/10.1080/2150704X.2020.1847350</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

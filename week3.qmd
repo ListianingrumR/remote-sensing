@@ -22,13 +22,21 @@ Push broom: spotlight/across track scanners
 Whisk broom: along track scanners
 
 ## Corrections {.unnumbered}
+
+Remote sensing is like taking a picture of the Earth from a big camera in space. But sometimes, the picture doesn't look right because of things like clouds, the way the camera is positioned, or other problems. So, we need to fix those problems so we can use the picture to learn more about the Earth. That's what we call "remote sensing corrections". It's like making the picture better by changing things in it to make it look more like what the Earth really looks like.
+
 - scan lines
 
-### Geometric correction (parallax! remember photogrammetry) {.unnumbered}
+### Geometric correction (parallax! remember photogrammetry in my undergrad) {.unnumbered}
+
+This type of correction helps to fix any errors in the location or position of features in the image caused by the angle at which the satellite was positioned, the curvature of the Earth, and other factors. 
+
 - view angle
 - topography
 - wind
 - rotation of the earth
+
+Geometric correction helps to make sure that the features in the image are accurately located and aligned.
 
 Geometric correction on satellite vs airplane?
 
@@ -43,7 +51,10 @@ linear regression: parallax
 	- cubic spline
 
 ### Atmospheric correction {.unnumbered}
-Not necessary if you only have one single image or not a time-series tiles
+
+The Earth's atmosphere can absorb, reflect, and scatter radiation from the sun, which can affect the quality of the remote sensing image. Atmospheric correction removes these effects to reveal the true spectral values of the features in the image.
+
+It is not necessary if you only have one single image or not a time-series tiles
 Necessary: have time elements (want to see the same spot in various times/time-series)
 
 Atmosphere will absorb/scatter the sunlight and create haze!
@@ -67,6 +78,10 @@ Empirical line correction
 Irradiance vs radiance
 
 ### Orthorectification correction / topographic correction {.unnumbered}
+
+When a satellite takes a picture of the Earth, it is viewing the planet from a very high altitude, and the images may appear distorted because of the angle at which they are taken. This can lead to inaccuracies in the image, such as features appearing stretched or compressed, or not being located in the correct place.
+
+Corrections:
 - cosine correction
 - mineart correction
 - statistical empirical correction
@@ -77,9 +92,12 @@ Irradiance vs radiance
 ![](img/Screen Shot 2023-01-24 at 13.46.16.png)
 
 ### Radiometric calibration {.unnumbered}
+
+This type of correction is used to adjust the brightness or contrast of the image so that it accurately represents the reflectance values of the features in the image. Radiometric correction helps to make sure that the features in the image are clearly visible and not too bright or too dark.
+
 Sensors capture image brightness and are distributed as a Digital Number (or DN) - allows for efficient storage but **has no units!**
 
-DN to **spectral radiance** = radiometric calibration
+Digitla Number (DN) to **spectral radiance** = radiometric calibration
 Radiometric calibration: Correct DN to spectral radiance
 
 ## Data joining and enhancement {.unnumbered}
@@ -93,15 +111,15 @@ Radiometric calibration: Correct DN to spectral radiance
 	pan sharpening (use grey band/panchromatic to sharpen the rgb band)
 - GEOBIA (Object-Based Image Analysis) [](https://gisgeography.com/obia-object-based-image-analysis-geobia/)
 
-## Summary {.unnumbered}
+---
 
-### Part 1: corrections {.unnumbered}
+Thoughts: corrections
 
 -   Imagery may contain error from a variety of sources
 -   We must correct where appropriate 
 -   We must contextualise the use of the imagery 
 
-### Part 2: data joining and enhancement {.unnumbered}
+Thoughts: data joining and enhancement {.unnumbered}
 
 -   Mosaicing in with a standard method isn't appropriate for satellite imagery 
 -   Imagery can be "improved/enhanced" based on the energy reflected and the contrast between features 
@@ -109,20 +127,11 @@ Radiometric calibration: Correct DN to spectral radiance
     -   How do these methods help **in urban environments**
     -   Does adding complexity to imagery (or creating new datasets) **assist us** in our aim?
 
-### Task {.unnumbered}
-MAKE AN RS DICTIONARY (zenith, azimuth)
-
---------
-## Practical3 {.unnumbered}
-[Landsat Data Access](https://www.usgs.gov/landsat-missions/landsat-data-access)
-
-Landsat USGS > comes with collections: Landsat Collections ensure that all Landsat Level-1 products contain known data quality. [Source](https://www.usgs.gov/landsat-missions/landsat-collections)
-![](img/Screen Shot 2023-01-26 at 10.13.51.png)
-Level means specific product (temp, humidity, etc)
-
-Example:
-Landsat 8-9 Operational Land Imager (OLI) and Thermal Infrared (TIRS) Collection 2 Level-2 Science Products 30-meter multispectral data. [Source](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-8-9-olitirs-collection-2-level-2#overview)
-
 ## Applications
 
+@liInfluenceGeometricCorrection2021 investigates the impact of geometric correction on the accuracy of extracting remote sensing reflectance (RSR) from water bodies using satellite imagery. The study found that geometric correction plays an essential role in the accurate retrieval of RSR. Using Landsat 8 Operational Land Imager (OLI) imagery acquired over the Taihu Lake region in China, which covered an area of approximately 180 km × 180 km with a spatial resolution of 30 m, the results show that the different geometric correction methods can cause significant variations in the retrieved RSR values, and the accuracy of the retrieved RSR can be significantly improved by applying a suitable geometric correction method.
+
+Limitation to this study is it did not consider other factors such as atmospheric correction or the impact of different algorithms on the accuracy of the extracted RSR values.
+
 ## Personal Reflection
+My thoughts on this week's lecture is although there is already corrected data, we still need to know about the fundamental and principle study behind the image correction in remote sensing. in my undergrad study, the image correction is a crucial step in obtaining accurate and reliable data from satellite imagery.

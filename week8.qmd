@@ -1,0 +1,77 @@
+# Temperature and Policy
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
+library(fontawesome)
+```
+
+## Summary
+
+### What is Urban Heat Island (UHI)?
+
+So, it is about temperature raise because of the built environment. The built environment such as roads, buildings, pavements and other unnatural surfaces **absorb** and **retain** heat. That is why city is hotter than surrounding rural areas.
+
+![Urban Heat Island (UHI). Source: [Public Health Notes](https://www.publichealthnotes.com/wp-content/uploads/2018/03/Featured-image.gif)](https://www.publichealthnotes.com/wp-content/uploads/2018/03/Featured-image.gif)
+
+![Urban Heat Island (UHI). Source: [US EPA](https://www.epa.gov/sites/default/files/2020-07/heat_island_effect_diagram.jpg)](https://www.epa.gov/sites/default/files/2020-07/heat_island_effect_diagram.jpg)
+
+By looking at this figure, I just found out that the surface temperature is so much higher than the air temperature during day time. Not only that, it is also vary more than the atmospheric temperature. However, interestingly, it has similar value and not much vary on the night time. But still, downtown areas experience higher temperature than surrounding rural areas.
+
+### UHI factors
+
+Some of the factors resulting on UHI according to  @usepaLearnHeatIslands2014:
+
+- Reduced natural landscpae in urban areas<br>
+The more we cover our natural landscape (vegetation, water) with concrete materials, the higher temperature we will get because hard, dry surfaces provide less shade and moisture than natural landscapes.
+
+- Urban material properties<br>
+Heat island often build throughout the day and become more pronounced in the night time due to the slow release of heat from urban materials (e.g. concrete, glass)
+
+- Urban geometry<br>
+The dimensions of the buildings are also can promote UHI. The higher buildings in the same blocks, the more it will influence the wind flow and block it.
+
+- Heat generated from human activities<br>
+Industrial activities, using ACs, and transportations also contribute to the emission and will heat the environment.
+
+- Weather and geography<br>
+Calm and clear weather conditions result in more severe heat islands by maximizing the amount of solar energy reaching urban surfaces and minimizing the amount of heat that can be carried away. Conversely, strong winds and cloud cover suppress heat island formation. Geographic features can also impact the heat island effect. For example, nearby mountains can block wind from reaching a city, or create wind patterns that pass through a city.
+
+### Global Policies
+
+Several global policies about UHI:
+
+- UN Habitat New Urban Agenda: Standards and principles for planning, construction, development, management and urban improvement<br>
+Point 54: reducing inefficient mmobility, congestion, and air pollution.<br>
+Point 79: climate change adaptation and mitigation<BR>
+Point 37: inclusive and accessible green spaces.
+
+- UN SDGs 11: Make cities and human settlements inclusive, safe, resilient and sustainable<br>
+Investing in parks and green spaces in urban areas will help to ameliorate the urban heat island effect and improve air quality in urban spaces.<br>
+We work with national coordination units that support integrated urban planning and mapping and promote sustainable heating and cooling in related and cross-sector policy frameworks at multiple levels
+
+- COP26: [Beating the Heat: A Sustainable Cooling Handbook for Cities](https://www.unep.org/resources/report/beating-heat-sustainable-cooling-handbook-cities)
+
+### Local Policies
+
+Superblocks are super interesting! (One of the reason I want to go to Barcelona!)
+
+![Superblocks Model. Source: [regenerativedesign.world](https://regenerativedesign.world/wp-content/uploads/2022/04/barcelona08.jpg)](https://regenerativedesign.world/wp-content/uploads/2022/04/barcelona08.jpg)
+
+![Source: [regenerativedesign.world](https://regenerativedesign.world/wp-content/uploads/2022/04/superblocks_strategy_@Ajuntament_De_Barcelona.jpg)](https://regenerativedesign.world/wp-content/uploads/2022/04/superblocks_strategy_@Ajuntament_De_Barcelona.jpg)
+
+My thought on this is that it is closed to 15 minutes city model. However, can it be applied to other cities? 
+
+## Applications
+
+One of the applications of this environmental-related issues and problem solving using remote sensing is presented in our group presentation [Landfill Monitoring Dashboard by PoliShe](https://listianingrumr.github.io/polishe/#1)
+
+We are providing surface temperature monitoring as one of the product using study by @hanamiEstimationMakassarLandfill2022, which related to this week's lecture with study case in Makassar,South Sulawesi, Indonesia.
+
+Policy that we aim to focus is the Landfill Monitoring policy which in-line with the Green House Gas Emission National Policy the [New 2030 Climate Targets](https://unfccc.int/sites/default/files/NDC/2022-09/ENDC%20Indonesia.pdf)
+
+## Personal Reflection
+
+This week we're talking mostly about urban heat island and policies that are related to environmental issues in cities around the world. The lecturer said some of the policies are made unclear and no specific approach. However, I must argue this point of view because as a person who grew and lives in a developing countries, I have to say specific rules/policy are not relatable to all countries (especially developing country).
+
+As the lecturer mentioned, the COP26 Beat the Heat Handbook only give a list of general parameters and have 200+ pages to read. I think it is because the organization gives the national authority, for example Indonesian government, a flexibility to approach their solution based on the situation, condition, and data in Indonesia. The next stage of the project is the one that state a clear goal and approach while corresponding with national government (e.g. Green House Gas Emission reduction project by monitoring landfill). 
+
+Overall, I agree that we cannot just make a policy because of the sake of it. Data-driven approach is the most factual and practical approach to solve real-world problem and make recommendations to the policy makers. The establishment of public policy must include the research expert study and recommendations so that we don't waste money doing something that are pointless (and this still happens a lot `r fa("face-sad-tear")` ).
