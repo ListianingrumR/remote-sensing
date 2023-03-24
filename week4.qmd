@@ -5,7 +5,7 @@
 ![](img/jakartasinking.png)
 Source: [Wired UK @nastImpossibleFightJakarta](https://www.wired.co.uk/article/jakarta-sinking)
 
-### Study Case {.unnumbered}
+### ![](img/studycase.PNG) {.unnumbered}
 
 As the sea level rise and groundwater extraction increasing, the future of coastal cities are in danger.
 
@@ -16,11 +16,11 @@ Let's take a look in Jakarta Metropolitan City, the capital city of Indonesia. Q
 -   Geographical situation: Coastal city in the south of Java Sea
 -   Risk: Flood, earthquake, land subsidence
 
-### What went wrong?
+### ![](img/whatwrong.PNG) {.unnumbered}
 
 Jakarta is sinking in 2030! due to the global sea level rise **and** groundwater extraction.
 
-### Problem Identification {.unnumbered}
+### ![](img/problem.PNG) {.unnumbered}
 
 **Current policy**
 

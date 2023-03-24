@@ -2,32 +2,29 @@
 
 ## Summary
 
-### References {.unnumbered}
-[Pennsylvania State University - GIS](https://www.e-education.psu.edu/natureofgeoinfo/c6_p15.html)
-
-### Virginia Norwood {.unnumbered}
+### ![](img/virginia.PNG) {.unnumbered}
 
 The woman behind multispectral band on satellite image/ERTS project (bringing visible RGB and invisible infrared, panc, etc)
 since 1972>> Landsat
 
-### RBV vs MSS {.unnumbered}
+### ![](img/rbsmss.PNG) {.unnumbered}
 
 RBV: Return Beam Vidicon (TV-like cameras) >> system was analog
 MSS: Multi-Spectral Scanner![](img/Screen Shot 2023-01-24 at 13.22.33.png)
 ![](img/Screen Shot 2023-01-24 at 13.22.11.png)
 
-### Push broom vs Whisk broom {.unnumbered}
+### ![](img/pushwhisk.PNG) {.unnumbered}
 
 Push broom: spotlight/across track scanners
 Whisk broom: along track scanners
 
-## Corrections {.unnumbered}
+### ![](img/corrections.PNG) {.unnumbered}
 
 Remote sensing is like taking a picture of the Earth from a big camera in space. But sometimes, the picture doesn't look right because of things like clouds, the way the camera is positioned, or other problems. So, we need to fix those problems so we can use the picture to learn more about the Earth. That's what we call "remote sensing corrections". It's like making the picture better by changing things in it to make it look more like what the Earth really looks like.
 
 - scan lines
 
-### Geometric correction (parallax! remember photogrammetry in my undergrad) {.unnumbered}
+**Geometric correction (parallax! remember photogrammetry in my undergrad)**
 
 This type of correction helps to fix any errors in the location or position of features in the image caused by the angle at which the satellite was positioned, the curvature of the Earth, and other factors. 
 
@@ -50,7 +47,7 @@ linear regression: parallax
 	- cubic
 	- cubic spline
 
-### Atmospheric correction {.unnumbered}
+**Atmospheric correction**
 
 The Earth's atmosphere can absorb, reflect, and scatter radiation from the sun, which can affect the quality of the remote sensing image. Atmospheric correction removes these effects to reveal the true spectral values of the features in the image.
 
@@ -77,7 +74,7 @@ Empirical line correction
 
 Irradiance vs radiance
 
-### Orthorectification correction / topographic correction {.unnumbered}
+**Orthorectification correction / topographic correction**
 
 When a satellite takes a picture of the Earth, it is viewing the planet from a very high altitude, and the images may appear distorted because of the angle at which they are taken. This can lead to inaccuracies in the image, such as features appearing stretched or compressed, or not being located in the correct place.
 
@@ -87,11 +84,11 @@ Corrections:
 - statistical empirical correction
 - c correction (advancing the cosine)
 
-**cosine correctional **
+*cosine correctional*
 
 ![](img/Screen Shot 2023-01-24 at 13.46.16.png)
 
-### Radiometric calibration {.unnumbered}
+**Radiometric calibration**
 
 This type of correction is used to adjust the brightness or contrast of the image so that it accurately represents the reflectance values of the features in the image. Radiometric correction helps to make sure that the features in the image are clearly visible and not too bright or too dark.
 
@@ -100,11 +97,8 @@ Sensors capture image brightness and are distributed as a Digital Number (or DN)
 Digitla Number (DN) to **spectral radiance** = radiometric calibration
 Radiometric calibration: Correct DN to spectral radiance
 
-## Data joining and enhancement {.unnumbered}
+### ![](img/enhancement.PNG) {.unnumbered}
 
-### Mosaicking {.unnumbered}
-
-### Image enhancement {.unnumbered}
 - image stretch
 - ratio
 - fusion: multi-temporal images or images from different satellites

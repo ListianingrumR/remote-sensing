@@ -6,12 +6,12 @@ library(fontawesome)
 
 ## Summary
 
-### Quarto {.unnumbered}
+### ![](img/quarto.PNG) {.unnumbered}
 
 [Quarto](https://quarto.org) official site<br/>
 [Bootswatch](https://bootswatch.com/united/) free bootsrap theme
 
-### Xaringan {.unnumbered}
+### ![](img/xaringan.PNG) {.unnumbered}
 
 Xaringan is a popular R packages for producing interactive and dynamic presentations. It is built on the renowned JavaScript library reveal.js and offers users a variety of customisation possibilities for creating entertaining and informative presentations.
 

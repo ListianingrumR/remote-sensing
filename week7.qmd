@@ -2,7 +2,7 @@
 
 ## Summary
 
-### More into Segmentation and Object-based analysis
+### ![](img/segmentationobia.PNG) {.unnumbered}
 
 "A lot of people want to do object-based classification because of an improvement of signal noise" - Noel Gorelick
 
@@ -12,7 +12,7 @@ I am interested in [this talk](https://youtu.be/2R0aTaMtYTY) by Noel Gorelick ab
 
 Object-based image analysis is a two-step approach that involves segmenting the image using an algorithm and then classifying the landscape objects using either supervised or unsupervised approaches. The SNIC segmentation algorithm is discussed as an example of an object-based image analysis approach available in Earth Engine, which has been used in various research applications, including mapping land use, wetlands, burned areas, sustainable development goal indicators, and ecosystem services.
 
-### Accuracy Assessment
+### ![](img/accuracyassess.PNG) {.unnumbered}
 
 The research paper titled "Accuracy Dimensions in Remote Sensing" by @barsiACCURACYDIMENSIONSREMOTE2018 focuses on the various accuracy dimensions that need to be considered when performing remote sensing applications. The study discusses the different accuracy metrics and how they can be used to evaluate the quality of remote sensing products.
 

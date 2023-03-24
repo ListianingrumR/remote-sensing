@@ -6,11 +6,11 @@
 
 > “Image classification is the process of assigning land cover classes to pixels. For example, classes include water, urban, forest, agriculture, and grassland.” - @gisgeographyImageClassificationTechniques2014
 
-### Image Classification in Remote Sensing
+### ![](img/imageclassrs.PNG) {.unnumbered}
 
 According to @gisgeographyImageClassificationTechniques2014, image classification is a fundamental task in remote sensing and is used for various applications, such as land cover mapping, vegetation analysis, and change detection.
 
-### Supervised Classification
+### ![](img/supervised.PNG) {.unnumbered}
 
 ![Supervised classification. Source: [GIS Geography](https://gisgeography.com/wp-content/uploads/2014/06/supervised-diagram.png)](https://gisgeography.com/wp-content/uploads/2014/06/supervised-diagram.png)
 
@@ -18,13 +18,13 @@ According to @gisgeographyImageClassificationTechniques2014, image classificatio
 
 Supervised classification involves using a set of training samples to train a classification algorithm. The training samples are pixels that are known to belong to specific classes, and the classification algorithm assigns each pixel in the image to the class that it is most likely to belong to based on its spectral signature. Maximum likelihood and support vector machine (SVM) are examples of supervised classification algorithms that are commonly used in remote sensing.
 
-### Unsupervised Classification
+### ![](img/unsupervised.PNG) {.unnumbered}
 
 ![Unsupervised classification. Source: [GIS Geography](https://gisgeography.com/wp-content/uploads/2014/06/unsupervised-diagram.png)](https://gisgeography.com/wp-content/uploads/2014/06/unsupervised-diagram.png)
 
 Unsupervised classification, on the other hand, does not require the use of training samples. Instead, the algorithm groups pixels based on their spectral similarity, and the user assigns labels to the resulting clusters. K-means clustering and ISODATA are examples of unsupervised classification algorithms in remote sensing.
 
-### Object-Based Image Analysis (OBIA)
+### ![](img/obia.PNG) {.unnumbered}
 
 ![OBIA. Source: [GIS Geography](https://gisgeography.com/wp-content/uploads/2014/06/object-based-diagram.png)](https://gisgeography.com/wp-content/uploads/2014/06/object-based-diagram.png)
 
@@ -35,7 +35,7 @@ Unsupervised classification, on the other hand, does not require the use of trai
 
 Different methods can be used in OBIA to classify the object such as shape, texture, spectral, geographic context, and nearest neighbor.
 
-### Which One to Use?
+### ![](img/whichone.PNG) {.unnumbered}
 
 According to @blaschkeObjectBasedImage2010, choosing classification method is highly depends on the spatial resolution of your image. Pixel-based classification (supervised and unsupervised classification) performs well on low spatial resolution image, while OBIA is good for high spatial resolution image.
 

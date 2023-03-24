@@ -6,7 +6,7 @@ library(fontawesome)
 
 ## Summary
 
-### What is Urban Heat Island (UHI)?
+### ![](img/whatuhi.PNG) {.unnumbered}
 
 So, it is about temperature raise because of the built environment. The built environment such as roads, buildings, pavements and other unnatural surfaces **absorb** and **retain** heat. That is why city is hotter than surrounding rural areas.
 
@@ -16,7 +16,7 @@ So, it is about temperature raise because of the built environment. The built en
 
 By looking at this figure, I just found out that the surface temperature is so much higher than the air temperature during day time. Not only that, it is also vary more than the atmospheric temperature. However, interestingly, it has similar value and not much vary on the night time. But still, downtown areas experience higher temperature than surrounding rural areas.
 
-### UHI factors
+### ![](img/uhifac.PNG) {.unnumbered}
 
 Some of the factors resulting on UHI according to  @usepaLearnHeatIslands2014:
 
@@ -35,7 +35,7 @@ Industrial activities, using ACs, and transportations also contribute to the emi
 - Weather and geography<br>
 Calm and clear weather conditions result in more severe heat islands by maximizing the amount of solar energy reaching urban surfaces and minimizing the amount of heat that can be carried away. Conversely, strong winds and cloud cover suppress heat island formation. Geographic features can also impact the heat island effect. For example, nearby mountains can block wind from reaching a city, or create wind patterns that pass through a city.
 
-### Global Policies
+### ![](img/globalpol.PNG) {.unnumbered}
 
 Several global policies about UHI:
 
@@ -50,7 +50,7 @@ We work with national coordination units that support integrated urban planning 
 
 - COP26: [Beating the Heat: A Sustainable Cooling Handbook for Cities](https://www.unep.org/resources/report/beating-heat-sustainable-cooling-handbook-cities)
 
-### Local Policies
+### ![](img/localpol.PNG) {.unnumbered}
 
 Superblocks are super interesting! (One of the reason I want to go to Barcelona!)
 
