@@ -48,8 +48,8 @@ Those values represent the amount of reflected electromagnetic energy (which is 
 
 |               | UAVs and Drones                                                                          | Airplanes and Helicopters                                                                | Low Earth Orbit Satellites                                                               |
 |------------------|:-----------------|:-----------------|:-----------------|
-| Advantages    | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
-| Disadvantages | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities |
+| Advantages    | \- Very high resolution imagery<br/>- Programmable flight paths<br/>- LIDAR capabilities | \- High resolution imagery<br/>- Pilot-flown flight paths<br/>- LIDAR capabilities | \- High to coarse resolution imagery<br/>- Large coverage extent |
+| Disadvantages | \- Very small coverage extent<br/>- Visual line of sight | \- Small coverage extent<br/>- Flight operation | \- Coverage limited to orbital path<br/>- Cloud obstructions |
 
 ### ![](img/type-of-rs.PNG) {.unnumbered}
 
